@@ -2,32 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@layer base {
+	html,
+	body {
+		@apply [&::-webkit-scrollbar-thumb]:bg-gray-400
+        dark:[&::-webkit-scrollbar-thumb]:bg-slate-500
+        [&::-webkit-scrollbar-track]:bg-transparent
+        [&::-webkit-scrollbar]:w-3;
+	}
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@layer components {
+	.vbox-container {
+		@apply overflow-y-auto [&::-webkit-scrollbar-thumb]:bg-gray-400
+        dark:[&::-webkit-scrollbar-thumb]:bg-slate-500
+        [&::-webkit-scrollbar-track]:bg-transparent
+        [&::-webkit-scrollbar]:w-3;
+	}
+
+	.alert-success {
+		@apply rounded-lg border border-teal-200 bg-teal-100 p-4 text-sm text-teal-800 dark:border-teal-900 dark:bg-teal-800/10 dark:text-teal-500;
+	}
+
+	.alert-danger {
+		@apply rounded-lg border border-red-200 bg-red-100 p-4 text-sm text-red-800 dark:border-red-900 dark:bg-red-800/10 dark:text-red-500;
+	}
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}

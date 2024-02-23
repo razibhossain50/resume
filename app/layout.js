@@ -1,4 +1,9 @@
 import { Inter } from "next/font/google";
+import Head from "next/head";
+import Header from "./_components/Header";
+import Footer from "./_components/Footer";
+import "./styles/swiper-bundle.min.css";
+import "./styles/venobox.min.css";
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -11,7 +16,32 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`relative h-screen overflow-y-auto overflow-x-hidden bg-light text-dark dark:bg-dark-2 dark:text-light ${inter.className}`}>
+        <div className="mx-auto flex max-w-screen-2xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6">
+          <Header />
+          {children}
+          <Footer />
+        </div>
+        <div className="shapes">
+			<div
+				className="fixed -left-1/2 -top-1/2 -z-10 animate-spin-very-slow xl:-left-[20%] xl:-top-1/3">
+				<img src="gradient-1.png" alt="" className="" />
+			</div>
+
+			<div
+				className="fixed -right-[50%] top-[10%] -z-10 animate-spin-very-slow xl:-right-[15%] xl:top-[10%]">
+				<img src="gradient-2.png" alt="" className="" />
+			</div>
+
+			<div className="move-with-cursor fixed left-[10%] top-[20%] -z-10">
+				<img src="object-3d-1.png" alt="" className="" />
+			</div>
+
+			<div className="move-with-cursor fixed bottom-[20%] right-[10%] -z-10">
+				<img src="object-3d-2.png" alt="" className="" />
+			</div>
+		</div>
+      </body>
     </html>
   );
 }
