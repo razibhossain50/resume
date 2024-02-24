@@ -47,5 +47,9 @@ module.exports = {
 			},
 		},
 	},
+	safelist: [
+		".open .hs-overlay-open\:translate-x-0",
+		".open.hs-overlay-open\:translate-x-0"
+	  ],
 	plugins: [require("preline/plugin"), require("@tailwindcss/typography")],
 };

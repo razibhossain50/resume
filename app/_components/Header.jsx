@@ -39,7 +39,7 @@ export default function Header() {
                                     d="M0 1.5A1.5 1.5 0 0 1 1.5 0H9a1.5 1.5 0 0 1 1.5 1.5v21A1.5 1.5 0 0 1 9 24H1.5A1.5 1.5 0 0 1 0 22.5v-21Zm13.5 0A1.5 1.5 0 0 1 15 0h7.5A1.5 1.5 0 0 1 24 1.5V9a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 9V1.5Zm0 13.5a1.5 1.5 0 0 1 1.5-1.5h7.5A1.5 1.5 0 0 1 24 15v7.5a1.5 1.5 0 0 1-1.5 1.5H15a1.5 1.5 0 0 1-1.5-1.5V15Z" />
                             </svg>
 
-                            <span> Bento<span className="text-primary">Folio</span> </span>
+                            <span> Razib<span className="text-primary">Hossain</span> </span>
                         </Link>
                         <ul className="hidden flex-1 flex-wrap items-center justify-center lg:flex">
                             <li className={`${pathName == "/" ? "active" : ""} group/menu-item`}>
@@ -180,21 +180,9 @@ export default function Header() {
                             </div>
 
                             <a
-                                href="contact.html"
+                                href="Razib_Frontend_v3.pdf"
                                 className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
-                                <span>Let&apos;s Talk</span>
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 20 20"
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="1.5"
-                                    className="h-5 w-5">
-                                    <path d="M17.5 11.667v-5h-5" />
-                                    <path d="m17.5 6.667-7.5 7.5-7.5-7.5" />
-                                </svg>
+                                <span>Download Resume</span>
                             </a>
                         </div>
                         <button
@@ -231,7 +219,7 @@ export default function Header() {
                                     d="M0 1.5A1.5 1.5 0 0 1 1.5 0H9a1.5 1.5 0 0 1 1.5 1.5v21A1.5 1.5 0 0 1 9 24H1.5A1.5 1.5 0 0 1 0 22.5v-21Zm13.5 0A1.5 1.5 0 0 1 15 0h7.5A1.5 1.5 0 0 1 24 1.5V9a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 9V1.5Zm0 13.5a1.5 1.5 0 0 1 1.5-1.5h7.5A1.5 1.5 0 0 1 24 15v7.5a1.5 1.5 0 0 1-1.5 1.5H15a1.5 1.5 0 0 1-1.5-1.5V15Z" />
                             </svg>
 
-                            <span> Bento<span className="text-primary">Folio</span> </span>
+                            <span> Razib<span className="text-primary">Hossain</span> </span>
                         </a>
                     </div>
 
@@ -357,24 +345,26 @@ export default function Header() {
                     </ul>
 
                     <div className="flex flex-col gap-3">
-                        <button
-                            data-hs-theme-click-value="dark"
-                            className="hs-dark-mode flex w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:hidden dark:hover:bg-dark dark:hover:text-white">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                                className="h-6 w-6">
-                                <path
-                                    d="M11.8 3a8.656 8.656 0 0 0-4.523 1.28A8.918 8.918 0 0 0 4.04 7.756a9.167 9.167 0 0 0 .44 9.24 8.863 8.863 0 0 0 3.553 3.137 8.633 8.633 0 0 0 4.624.824 8.69 8.69 0 0 0 4.381-1.723 8.973 8.973 0 0 0 2.892-3.78c.3-.738-.419-1.48-1.142-1.179a5.604 5.604 0 0 1-3.892.15 5.74 5.74 0 0 1-3.083-2.431 5.956 5.956 0 0 1-.848-3.886c.17-1.357.8-2.61 1.78-3.541l.069-.072c.485-.567.099-1.488-.668-1.488h-.234l-.06-.005L11.8 3Z" />
-                            </svg>
 
-                            <span>Change appearance</span>
-                        </button>
-
-                        <button
-                            data-hs-theme-click-value="light"
-                            className="hs-dark-mode hidden w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:flex dark:hover:bg-dark dark:hover:text-white">
+                    {!darkMode ? (
+                                    <button
+                                    onClick={toggleDarkMode}
+                                    className="hs-dark-mode flex w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:hidden dark:hover:bg-dark dark:hover:text-white">
+                                    <svg
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor"
+                                        viewBox="0 0 24 24"
+                                        className="h-6 w-6">
+                                        <path
+                                            d="M11.8 3a8.656 8.656 0 0 0-4.523 1.28A8.918 8.918 0 0 0 4.04 7.756a9.167 9.167 0 0 0 .44 9.24 8.863 8.863 0 0 0 3.553 3.137 8.633 8.633 0 0 0 4.624.824 8.69 8.69 0 0 0 4.381-1.723 8.973 8.973 0 0 0 2.892-3.78c.3-.738-.419-1.48-1.142-1.179a5.604 5.604 0 0 1-3.892.15 5.74 5.74 0 0 1-3.083-2.431 5.956 5.956 0 0 1-.848-3.886c.17-1.357.8-2.61 1.78-3.541l.069-.072c.485-.567.099-1.488-.668-1.488h-.234l-.06-.005L11.8 3Z" />
+                                    </svg>
+        
+                                    <span>Change appearance</span>
+                                </button>
+                                ) : (
+                                    <button
+                                    onClick={toggleDarkMode}
+                            className="hs-dark-mode w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:flex dark:hover:bg-dark dark:hover:text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
@@ -386,23 +376,11 @@ export default function Header() {
 
                             <span>Change appearance</span>
                         </button>
-
+                                )}
                         <a
-                            href="contact.html"
+                            href="Razib_Frontend_v3.pdf"
                             className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
-                            <span>Lets Talk</span>
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 20 20"
-                                stroke="currentColor"
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                strokeWidth="1.5"
-                                className="h-5 w-5">
-                                <path d="M17.5 11.667v-5h-5" />
-                                <path d="m17.5 6.667-7.5 7.5-7.5-7.5" />
-                            </svg>
+                            <span>Download Resume</span>
                         </a>
                     </div>
                 </div>

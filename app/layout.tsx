@@ -1,28 +1,23 @@
-import { Inter } from "next/font/google";
-import Script from 'next/script'
+import PrelineScript from "./_components/PrelineScript";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import Profile from "./_components/Profile";
 import "./styles/swiper-bundle.min.css";
-import "./styles/venobox.min.css";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
 	title: "Razib portfolio",
 	description: "Pesonal portfolio website",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({children}) {
 	return (
 		<html lang="en">
-
-			<body className={`relative h-screen overflow-y-auto overflow-x-hidden bg-light text-dark dark:bg-dark-2 dark:text-light ${inter.className}`}>
+			<body className={`relative h-screen overflow-y-auto overflow-x-hidden bg-light text-dark dark:bg-dark-2 dark:text-light `}>
 				<div className="mx-auto flex max-w-screen-2xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6">
 					<Header />
 					<main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
-						<Profile/>
+						<Profile />
 						{children}
 					</main>
 					<Footer />
@@ -47,6 +42,7 @@ export default function RootLayout({ children }) {
 					</div>
 				</div>
 			</body>
+		   <PrelineScript />
 		</html>
 	);
 }

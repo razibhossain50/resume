@@ -51,40 +51,12 @@ export default function Contact() {
                         </div>
                     </div>
 
-                    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                    <div className="grid grid-cols-1 gap-4 md:grid-cols-1">
                         <div className="">
                             <label htmlFor="subject" className="mb-2 block text-sm font-medium text-dark dark:text-light">
                                 Subject
                             </label>
                             <input required type="text" id="subject" name="subject" placeholder="Subject" className="block w-full rounded-lg border border-gray-200 bg-white px-6 py-4 text-base outline-none transition focus:border-dark focus:ring focus:ring-dark/20 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:bg-black dark:text-white dark:focus:border-muted dark:focus:ring-white/20" />
-                        </div>
-
-                        <div className="">
-                            <label htmlFor="budget" className="mb-2 block text-sm font-medium text-dark dark:text-light">
-                                Budget
-                            </label>
-                            <div className="relative">
-                                <select data-hs-select='{
-											"placeholder": "Select budget...",
-											"toggleTag": "<button type=\"button\"></button>",
-											"toggleClasses": "relative flex w-full cursor-pointer text-nowrap rounded-lg border border-gray-200 bg-white px-6 py-4 pe-9 text-start text-base outline-none transition before:absolute before:inset-0 before:z-[1] focus:border-dark focus:ring focus:ring-dark/20 hs-select-disabled:pointer-events-none hs-select-disabled:opacity-50 dark:border-dark dark:bg-black dark:text-white dark:focus:border-muted dark:focus:ring-white/20",
-											"dropdownClasses": "z-50 mt-2 max-h-[300px] w-full space-y-0.5 overflow-hidden overflow-y-auto rounded-lg border border-gray-200 bg-white p-1 dark:border-gray-700 dark:bg-slate-900",
-											"optionClasses": "w-full cursor-pointer rounded-lg px-4 py-2 text-sm text-gray-800 hover:bg-gray-100 focus:bg-gray-100 focus:outline-none dark:bg-slate-900 dark:text-gray-200 dark:hover:bg-slate-800 dark:focus:bg-slate-800",
-											"optionTemplate": "<div className=\"flex justify-between items-center w-full\"><span data-title></span><span className=\"hidden hs-selected:block\"><svg className=\"flex-shrink-0 w-3.5 h-3.5 text-blue-600 dark:text-blue-500\" xmlns=\"http:.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" strokeWidth=\"2\" strokeLinecap=\"round\" strokeLinejoin=\"round\"><polyline points=\"20 6 9 17 4 12\"/></svg></span></div>"
-										  }' className="hidden" id="budget" name="budget" required>
-                                    <option value="">Choose</option>
-                                    <option>$5000</option>
-                                    <option>$5000 - $10000</option>
-                                    <option>$10000 - $20000</option>
-                                    <option>$20000+</option>
-                                </select>
-
-                                <div className="absolute end-3 top-1/2 -translate-y-1/2">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 flex-shrink-0">
-                                        <path d="m19.5 8.25-7.5 7.5-7.5-7.5" />
-                                    </svg>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
