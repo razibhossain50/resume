@@ -4,10 +4,10 @@ export default function Blogs  () {
     <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
                 <div className="">
                     <h2 className="text-3xl font-semibold leading-tight text-dark dark:text-light lg:text-[40px] lg:leading-tight">
-                        My Recent Article and Publications
+                        My Recent Article
                     </h2>
                     <p className="mt-4 text-lg text-muted dark:text-light/70">
-                        Im here to help if youre searching for a product designer to bring
+                        I'm here to help if you are searching for a Software Engineer to bring
                         your idea to life or a design partner to help take your business to the
                         next level.
                     </p>
@@ -46,118 +46,6 @@ export default function Blogs  () {
                             <div className="relative">
                                 <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
                                     <img src="blog-img-2.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
-                                </a>
-                                <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
-                                    <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">
-                                        Development
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="mt-6">
-                                <h2 className="text-xl font-medium xl:text-2xl">
-                                    <a href="article.html" className="inline-block text-dark transition hover:text-primary dark:text-light/70 dark:hover:text-primary">
-                                        Want To Upgrade Your Brain? Stop Doing These 7 Things
-                                    </a>
-                                </h2>
-
-                                <ul className="mt-4 flex flex-wrap items-center gap-2">
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        15 min read
-                                    </li>
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        Nov 6, 2023
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="">
-                            <div className="relative">
-                                <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-3.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
-                                </a>
-                                <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
-                                    <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">
-                                        Development
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="mt-6">
-                                <h2 className="text-xl font-medium xl:text-2xl">
-                                    <a href="article.html" className="inline-block text-dark transition hover:text-primary dark:text-light/70 dark:hover:text-primary">
-                                        Want To Upgrade Your Brain? Stop Doing These 7 Things
-                                    </a>
-                                </h2>
-
-                                <ul className="mt-4 flex flex-wrap items-center gap-2">
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        15 min read
-                                    </li>
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        Nov 6, 2023
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="">
-                            <div className="relative">
-                                <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-4.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
-                                </a>
-                                <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
-                                    <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">
-                                        Development
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="mt-6">
-                                <h2 className="text-xl font-medium xl:text-2xl">
-                                    <a href="article.html" className="inline-block text-dark transition hover:text-primary dark:text-light/70 dark:hover:text-primary">
-                                        Want To Upgrade Your Brain? Stop Doing These 7 Things
-                                    </a>
-                                </h2>
-
-                                <ul className="mt-4 flex flex-wrap items-center gap-2">
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        15 min read
-                                    </li>
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        Nov 6, 2023
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="">
-                            <div className="relative">
-                                <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-5.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
-                                </a>
-                                <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
-                                    <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">
-                                        Development
-                                    </a>
-                                </div>
-                            </div>
-                            <div className="mt-6">
-                                <h2 className="text-xl font-medium xl:text-2xl">
-                                    <a href="article.html" className="inline-block text-dark transition hover:text-primary dark:text-light/70 dark:hover:text-primary">
-                                        Want To Upgrade Your Brain? Stop Doing These 7 Things
-                                    </a>
-                                </h2>
-
-                                <ul className="mt-4 flex flex-wrap items-center gap-2">
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        15 min read
-                                    </li>
-                                    <li className="relative text-sm text-muted/50 before:mr-1 before:content-['\2022'] dark:text-muted">
-                                        Nov 6, 2023
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div className="">
-                            <div className="relative">
-                                <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-6.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
                                 </a>
                                 <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
                                     <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">

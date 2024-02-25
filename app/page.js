@@ -1,4 +1,5 @@
-import Image from "next/image";
+"use client";
+import Link from 'next/link'
 
 export default function Home() {
 	return (
@@ -294,7 +295,7 @@ export default function Home() {
 								<img src="images/nodejs.svg" alt="Vue JS" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
-								Vue
+								Node
 							</p>
 						</div>
 						<div className="text-center">
@@ -321,9 +322,7 @@ export default function Home() {
 			<div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark">
 				<div className="flex flex-wrap items-center justify-between gap-2">
 					<h3 className="text-2xl font-semibold dark:text-light">Recent Projects</h3>
-					<a
-						href="portfolio.html"
-						className="inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary">
+					<Link href="/portfolio" className='inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary'>
 						<span>All Projects</span>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -336,7 +335,7 @@ export default function Home() {
 							className="h-5 w-5">
 							<path d="M4.167 10h11.666m-4.999 5 5-5m-5-5 5 5" />
 						</svg>
-					</a>
+					</Link>
 				</div>
 
 				<div className="mt-6 space-y-6">
@@ -344,8 +343,8 @@ export default function Home() {
 						className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0">
 						<div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
 							<img
-								src="project-1.png"
-								alt=""
+								src="images/project1.png"
+								alt="hbk"
 								className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
 							<a
@@ -370,7 +369,7 @@ export default function Home() {
 							className="absolute inset-x-0 bottom-0 flex flex-wrap gap-2 bg-gradient-to-t from-black/20 p-4">
 							<span
 								className="rounded bg-white px-2 py-1 text-xs font-medium text-primary shadow">
-								Product Design
+								Corporate
 							</span>
 						</div>
 					</div>
@@ -378,10 +377,9 @@ export default function Home() {
 						className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0">
 						<div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
 							<img
-								src="project-2.png"
-								alt=""
+								src="images/project2.png"
+								alt="Clinical trail"
 								className="h-full w-full rounded-t-lg object-cover object-top transition" />
-
 							<a
 								href="project-2.png"
 								data-gall="project-gallry-2"
@@ -404,7 +402,7 @@ export default function Home() {
 							className="absolute inset-x-0 bottom-0 flex flex-wrap gap-2 bg-gradient-to-t from-black/20 p-4">
 							<span
 								className="rounded bg-white px-2 py-1 text-xs font-medium text-primary shadow">
-								Product Design
+								Corporate
 							</span>
 						</div>
 					</div>
@@ -414,22 +412,21 @@ export default function Home() {
 				className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2">
 				<div className="flex flex-wrap items-center justify-between gap-2">
 					<h3 className="text-2xl font-semibold dark:text-light">Services I Offered</h3>
-					<a
-						href="services.html"
-						className="inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary">
-						<span>See All Services</span>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							viewBox="0 0 20 20"
-							fill="none"
-							stroke="currentColor"
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth="1.5"
-							className="h-5 w-5">
-							<path d="M4.167 10h11.666m-4.999 5 5-5m-5-5 5 5" />
-						</svg>
-					</a>
+						<Link href="/services" className='inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary'>
+							<span>See All Services</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="none"
+								stroke="currentColor"
+								strokeLinecap="round"
+								strokeLinejoin="round"
+								strokeWidth="1.5"
+								className="h-5 w-5">
+								<path d="M4.167 10h11.666m-4.999 5 5-5m-5-5 5 5" />
+							</svg>
+						</Link>
+
 				</div>
 
 				<div className="mt-6 grid grid-cols-2 gap-6 md:grid-cols-4">
@@ -455,6 +452,16 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
+						<div className="grid place-content-center rounded-lg bg-white p-6 dark:bg-black">
+							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="h-12 w-12 text-primary lg:h-16 lg:w-16">
+								<path d="M33.333 42.667H10.667A2.667 2.667 0 0 1 8 40V13.333a2.667 2.667 0 0 1 2.667-2.666h42.666A2.667 2.667 0 0 1 56 13.333v21.334M18.667 53.333h10.666M24 42.667v10.666M53.333 56l5.334-5.333-5.334-5.334m-8 0L40 50.667 45.333 56" />
+							</svg>
+						</div>
+						<p className="mt-3 text-base font-medium text-dark dark:text-light/70">
+							Web Development
+						</p>
+					</div>
+					<div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
 						<div
 							className="grid place-content-center rounded-lg bg-white p-6 dark:bg-black">
 							<svg
@@ -472,26 +479,6 @@ export default function Home() {
 						</div>
 						<p className="mt-3 text-base font-medium text-dark dark:text-light/70">
 							Mobile App
-						</p>
-					</div>
-					<div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
-						<div
-							className="grid place-content-center rounded-lg bg-white p-6 dark:bg-black">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								viewBox="0 0 64 64"
-								fill="none"
-								stroke="currentColor"
-								strokeLinecap="round"
-								strokeLinejoin="round"
-								strokeWidth="2"
-								className="h-12 w-12 text-primary lg:h-16 lg:w-16">
-								<path
-									d="M10.666 13.333a2.667 2.667 0 0 1 2.667-2.666h37.334a2.667 2.667 0 0 1 2.666 2.666v5.334a2.667 2.667 0 0 1-2.666 2.666H13.332a2.666 2.666 0 0 1-2.667-2.666v-5.334Zm0 21.334A2.667 2.667 0 0 1 13.333 32H24a2.667 2.667 0 0 1 2.666 2.667v16A2.667 2.667 0 0 1 24 53.333H13.333a2.666 2.666 0 0 1-2.667-2.666v-16ZM37.334 32h16m-16 10.667h16m-16 10.666h16" />
-							</svg>
-						</div>
-						<p className="mt-3 text-base font-medium text-dark dark:text-light/70">
-							Product Design
 						</p>
 					</div>
 					<div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
@@ -533,24 +520,23 @@ export default function Home() {
 					Let's👋 <br />
 					Work Together
 				</h2>
-
-				<a
-					href="contact.html"
-					className="mt-6 inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary">
-					<span>Let's Talk</span>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 20 20"
-						fill="none"
-						stroke="currentColor"
-						strokeLinecap="round"
-						strokeLinejoin="round"
-						strokeWidth="1.5"
-						className="h-5 w-5">
-						<path d="M17.5 11.667v-5h-5" />
-						<path d="m17.5 6.667-7.5 7.5-7.5-7.5" />
-					</svg>
-				</a>
+					<Link
+						href="/contact"
+						className="mt-6 inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary">
+						<span>Let's Talk</span>
+						<svg
+							xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 20 20"
+							fill="none"
+							stroke="currentColor"
+							strokeLinecap="round"
+							strokeLinejoin="round"
+							strokeWidth="1.5"
+							className="h-5 w-5">
+							<path d="M17.5 11.667v-5h-5" />
+							<path d="m17.5 6.667-7.5 7.5-7.5-7.5" />
+						</svg>
+					</Link>
 			</div>
 		</>
 	);

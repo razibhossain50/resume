@@ -11,58 +11,14 @@ export default function About() {
         <div className="flex flex-col-reverse items-start gap-6 lg:flex-row lg:gap-10">
           <div className="">
             <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-              Hi, This Is <span className="text-primary">Cris Rayaan</span> 👋
+              Hi, I'am <span className="text-primary">Razib Hossain</span> 👋
             </h2>
             <p className="mt-4 text-lg text-muted dark:text-light/70 lg:mt-6 lg:text-2xl">
-              A Passionate
-              <span className="font-semibold text-dark dark:text-white">
-                Full Stack Developer
-              </span>
-              🖥️ &
-              <span className="font-semibold text-dark dark:text-white">
-                Product Designer
-              </span>
-              having
-              <span className="font-semibold text-dark dark:text-white">
-                12 years
-              </span>
-              of Experiences over 24+ Country Worldwide.
+            A Professional <span className="font-semibold text-dark dark:text-white"> Software Engineer</span> having <span className="font-semibold text-dark dark:text-white">5+</span> years of experience and completed<span className="font-semibold text-dark dark:text-white">10+</span>  professional projects. I understand the importance of creating<span className="font-semibold text-dark dark:text-white"> user-centric </span> interfaces that provide an exceptional user experience. My experience working on <span className="font-semibold text-dark dark:text-white">cross-functional</span> teams has provided me with a strong understanding of the importance of collaboration and communication in achieving project success.
             </p>
           </div>
-          <div className="flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-light px-4 py-2 text-center text-base font-medium leading-none text-primary dark:bg-dark-2 lg:text-lg">
-            <span className="relative flex h-2 w-2 shrink-0">
-              <span
-                className="absolute inline-flex h-full w-full animate-ping rounded-full bg-primary opacity-75 dark:bg-light"></span>
-              <span
-                className="relative inline-flex h-2 w-2 rounded-full bg-primary"></span>
-            </span>
-            <span>Available For Hire</span>
-          </div>
-        </div>
-
-        <div className="mt-8 flex flex-wrap justify-between gap-6 lg:mt-12 lg:gap-10">
-          <div className="flex flex-wrap items-start gap-6 lg:gap-10">
-            <div className="">
-              <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-                <span>40</span>+
-              </h2>
-              <p className="mt-2 text-muted">Year of Experience</p>
-            </div>
-            <div className="">
-              <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-                <span>86</span>+
-              </h2>
-              <p className="mt-2 text-muted">Project Completed</p>
-            </div>
-            <div className="">
-              <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-                <span>72</span>+
-              </h2>
-              <p className="mt-2 text-muted">Happy Client</p>
-            </div>
-          </div>
-
-          <div className="relative -mt-6 hidden h-[100px] w-[100px] p-4 lg:block xl:-mt-10">
+          <div>
+          <div className="relative hidden h-[100px] w-[100px] p-4 lg:block">
             <img src="circle-text.svg" alt="" className="absolute inset-0 h-full w-full animate-spin-slow dark:hidden" />
             <img src="circle-text-light.svg" alt="" className="absolute inset-0 hidden h-full w-full animate-spin-slow dark:block" />
             <div className="grid h-full w-full place-content-center rounded-full bg-primary text-light">
@@ -71,62 +27,10 @@ export default function About() {
               </svg>
             </div>
           </div>
-        </div>
-        <div className="mt-10 lg:mt-14">
-          <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">
-            Working With 50+ Brands ✨ Worldwide
-          </h3>
-          <div className="mt-8 grid grid-cols-[repeat(auto-fit,_minmax(60px,1fr))] gap-2 lg:grid-cols-[repeat(auto-fit,_minmax(80px,1fr))] lg:gap-4">
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="notion.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="webflow.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="mico.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="framer.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="zeplin.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="figma.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="notion.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="webflow.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="mico.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="framer.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="zeplin.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="figma.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="notion.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="webflow.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="mico.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
-            <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-              <img src="framer.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-            </div>
+
           </div>
         </div>
+
         <div className="mt-10 lg:mt-14">
           <div className="flex flex-wrap items-center justify-between gap-6">
             <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">

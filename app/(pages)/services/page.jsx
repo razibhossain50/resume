@@ -7,12 +7,8 @@ export default function Services(){
                             Services I <span className="text-primary">Offered</span>
                         </h2>
                         <p className="mt-4 text-lg text-muted dark:text-light/70 lg:mt-6 lg:text-2xl">
-                            Transforming Ideas into Innovative Reality, Elevate Your Vision with
-                            Our Expert
-                            <span className="font-semibold text-dark dark:text-white">
-									Product Design and Development
-								</span>
-                            Services!
+                            Transforming Ideas into Innovative Reality, Empower Your Vision with
+                            Our Expert <span className="font-semibold text-dark dark:text-white">Software Development</span>  Services!
                         </p>
                     </div>
                     <div className="flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-light px-4 py-2 text-center text-base font-medium leading-none text-primary dark:bg-dark-2 lg:text-lg">
@@ -35,6 +31,16 @@ export default function Services(){
                         </div>
                         <p className="mt-3 text-base font-medium text-dark dark:text-light/70">
                             UI UX Design
+                        </p>
+                    </div>
+                    <div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
+                        <div className="grid place-content-center rounded-lg bg-white p-6 dark:bg-black">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="h-12 w-12 text-primary lg:h-16 lg:w-16">
+                                <path d="M33.333 42.667H10.667A2.667 2.667 0 0 1 8 40V13.333a2.667 2.667 0 0 1 2.667-2.666h42.666A2.667 2.667 0 0 1 56 13.333v21.334M18.667 53.333h10.666M24 42.667v10.666M53.333 56l5.334-5.333-5.334-5.334m-8 0L40 50.667 45.333 56" />
+                            </svg>
+                        </div>
+                        <p className="mt-3 text-base font-medium text-dark dark:text-light/70">
+                            Web Development
                         </p>
                     </div>
                     <div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
@@ -89,16 +95,6 @@ export default function Services(){
                         </div>
                         <p className="mt-3 text-base font-medium text-dark dark:text-light/70">
                             Motion Design
-                        </p>
-                    </div>
-                    <div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">
-                        <div className="grid place-content-center rounded-lg bg-white p-6 dark:bg-black">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="h-12 w-12 text-primary lg:h-16 lg:w-16">
-                                <path d="M33.333 42.667H10.667A2.667 2.667 0 0 1 8 40V13.333a2.667 2.667 0 0 1 2.667-2.666h42.666A2.667 2.667 0 0 1 56 13.333v21.334M18.667 53.333h10.666M24 42.667v10.666M53.333 56l5.334-5.333-5.334-5.334m-8 0L40 50.667 45.333 56" />
-                            </svg>
-                        </div>
-                        <p className="mt-3 text-base font-medium text-dark dark:text-light/70">
-                            Web Development
                         </p>
                     </div>
                     <div className="rounded-2xl bg-light p-2 text-center dark:bg-dark-2 md:p-4">

@@ -117,7 +117,7 @@ export default function Header() {
                                 </Link>
 
                             </li>
-                            <li className={`${pathName == "/blogs" ? "active" : ""} group/menu-item`}>
+                            {/* <li className={`${pathName == "/blogs" ? "active" : ""} group/menu-item`}>
                                 <Link href="/blogs" className='group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white'>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
@@ -134,7 +134,7 @@ export default function Header() {
                                     <span>Blogs</span>
                                 </Link>
 
-                            </li>
+                            </li> */}
                             <li  className={`${pathName == "/contact" ? "active" : ""} group/menu-item`}>
                                 <Link href="/contact" className='group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white'>
                                     <svg
@@ -181,7 +181,7 @@ export default function Header() {
 
                             <a
                                 href="Razib_Frontend_v3.pdf"
-                                className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
+                                className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white leading-4">
                                 <span>Download Resume</span>
                             </a>
                         </div>
