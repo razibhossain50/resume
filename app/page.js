@@ -18,23 +18,20 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2021 - 2023
+									2022 - 2023
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img
-											src="google.svg"
-											alt=""
-											className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Google Inc.
+											Brain Station 23
 										</h6>
 										<p className="text-sm text-muted">
-											Senior Product Designer
+											Frontend Engineer
 										</p>
 									</div>
 								</div>
@@ -42,90 +39,120 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2021 - 2023
+									2021 - 2022
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="meta.svg" alt="" className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Meta Inc.
+											Brain Station 23
 										</h6>
-										<p className="text-sm text-muted">Product Designer</p>
+										<p className="text-sm text-muted">Associate Frontend Engineer</p>
 									</div>
 								</div>
 							</div>
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2018 - 2021
+									2020 - 2021
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img
-											src="adobe.svg"
-											alt=""
-											className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Adobe
+											Brain Station 23
 										</h6>
-										<p className="text-sm text-muted">Senior UI UX Designer</p>
+										<p className="text-sm text-muted">Junior Frontend Engineer</p>
 									</div>
 								</div>
 							</div>
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2018 - 2021
+									2019 - 2020
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img
-											src="adobe.svg"
-											alt=""
-											className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Adobe
+											Pondit
 										</h6>
-										<p className="text-sm text-muted">Senior UI UX Designer</p>
+										<p className="text-sm text-muted">Frontend Engineer</p>
+									</div>
+								</div>
+							</div>
+							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
+								<p
+									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
+									2018 - 2018
+								</p>
+								<div className="flex items-center gap-3">
+									<div
+										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
+									</div>
+									<div className="">
+										<h6
+											className="text-base font-semibold text-dark dark:text-light/70">
+											Fiver
+										</h6>
+										<p className="text-sm text-muted">Web Application Developer</p>
+									</div>
+								</div>
+							</div>
+							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
+								<p
+									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
+									2017 - 2018
+								</p>
+								<div className="flex items-center gap-3">
+									<div
+										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
+									</div>
+									<div className="">
+										<h6
+											className="text-base font-semibold text-dark dark:text-light/70">
+											Theme Forest
+										</h6>
+										<p className="text-sm text-muted">
+											HTML Theme Developer
+										</p>
 									</div>
 								</div>
 							</div>
 						</div>
-
 						<div
 							className="animate-scrollY space-y-4 group-hover:[animation-play-state:paused]">
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2021 - 2023
+									2022 - 2023
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img
-											src="google.svg"
-											alt=""
-											className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Google Inc.
+											Brain Station 23
 										</h6>
 										<p className="text-sm text-muted">
-											Senior Product Designer
+											Frontend Engineer
 										</p>
 									</div>
 								</div>
@@ -133,63 +160,97 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2021 - 2023
+									2021 - 2022
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="meta.svg" alt="" className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Meta Inc.
+											Brain Station 23
 										</h6>
-										<p className="text-sm text-muted">Product Designer</p>
+										<p className="text-sm text-muted">Associate Frontend Engineer</p>
 									</div>
 								</div>
 							</div>
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2018 - 2021
+									2020 - 2021
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img
-											src="adobe.svg"
-											alt=""
-											className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Adobe
+											Brain Station 23
 										</h6>
-										<p className="text-sm text-muted">Senior UI UX Designer</p>
+										<p className="text-sm text-muted">Junior Frontend Engineer</p>
 									</div>
 								</div>
 							</div>
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2018 - 2021
+									2019 - 2020
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img
-											src="adobe.svg"
-											alt=""
-											className="h-5 w-5" />
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
 											className="text-base font-semibold text-dark dark:text-light/70">
-											Adobe
+											Pondit
 										</h6>
-										<p className="text-sm text-muted">Senior UI UX Designer</p>
+										<p className="text-sm text-muted">Frontend Engineer</p>
+									</div>
+								</div>
+							</div>
+							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
+								<p
+									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
+									2018 - 2018
+								</p>
+								<div className="flex items-center gap-3">
+									<div
+										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
+									</div>
+									<div className="">
+										<h6
+											className="text-base font-semibold text-dark dark:text-light/70">
+											Fiver
+										</h6>
+										<p className="text-sm text-muted">Web Application Developer</p>
+									</div>
+								</div>
+							</div>
+							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
+								<p
+									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
+									2017 - 2018
+								</p>
+								<div className="flex items-center gap-3">
+									<div
+										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
+										<img src="images/company.svg" alt="company" className="h-5 w-5" />
+									</div>
+									<div className="">
+										<h6
+											className="text-base font-semibold text-dark dark:text-light/70">
+											Theme Forest
+										</h6>
+										<p className="text-sm text-muted">
+											HTML Theme Developer
+										</p>
 									</div>
 								</div>
 							</div>
@@ -203,55 +264,55 @@ export default function Home() {
 						<div className="text-center">
 							<div
 								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="figma.svg" alt="" className="h-8 w-8" />
+								<img src="images/tailwindcss.svg" alt="Tailwind CSS" className="h-8 w-8" />
+							</div>
+							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
+								Tailwind
+							</p>
+						</div>
+						<div className="text-center">
+							<div
+								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
+								<img src="images/reactjs.svg" alt="React JS" className="h-8 w-8" />
+							</div>
+							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
+								React
+							</p>
+						</div>
+						<div className="text-center">
+							<div
+								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
+								<img src="images/vuejs.svg" alt="Vue JS" className="h-8 w-8" />
+							</div>
+							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
+								Vue
+							</p>
+						</div>
+						<div className="text-center">
+							<div
+								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
+								<img src="images/nodejs.svg" alt="Vue JS" className="h-8 w-8" />
+							</div>
+							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
+								Vue
+							</p>
+						</div>
+						<div className="text-center">
+							<div
+								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
+								<img src="images/aem.svg" alt="Adove experience manager" className="h-8 w-8" />
+							</div>
+							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
+								AEM
+							</p>
+						</div>
+						<div className="text-center">
+							<div
+								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
+								<img src="figma.svg" alt="Figma" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
 								Figma
-							</p>
-						</div>
-						<div className="text-center">
-							<div
-								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="notion.svg" alt="" className="h-8 w-8" />
-							</div>
-							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
-								Notion
-							</p>
-						</div>
-						<div className="text-center">
-							<div
-								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="mico.svg" alt="" className="h-8 w-8" />
-							</div>
-							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
-								Mico
-							</p>
-						</div>
-						<div className="text-center">
-							<div
-								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="framer.svg" alt="" className="h-8 w-8" />
-							</div>
-							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
-								Framer
-							</p>
-						</div>
-						<div className="text-center">
-							<div
-								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="webflow.svg" alt="" className="h-8 w-8" />
-							</div>
-							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
-								Webflow
-							</p>
-						</div>
-						<div className="text-center">
-							<div
-								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="zeplin.svg" alt="" className="h-8 w-8" />
-							</div>
-							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
-								Zeplin
 							</p>
 						</div>
 					</div>
