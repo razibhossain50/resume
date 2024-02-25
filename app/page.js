@@ -223,7 +223,7 @@ export default function Home() {
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -242,7 +242,7 @@ export default function Home() {
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -265,7 +265,7 @@ export default function Home() {
 						<div className="text-center">
 							<div
 								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="images/tailwindcss.svg" alt="Tailwind CSS" className="h-8 w-8" />
+								<img src="icons/tailwindcss.svg" alt="Tailwind CSS" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
 								Tailwind
@@ -274,7 +274,7 @@ export default function Home() {
 						<div className="text-center">
 							<div
 								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="images/reactjs.svg" alt="React JS" className="h-8 w-8" />
+								<img src="icons/reactjs.svg" alt="React JS" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
 								React
@@ -283,7 +283,7 @@ export default function Home() {
 						<div className="text-center">
 							<div
 								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="images/vuejs.svg" alt="Vue JS" className="h-8 w-8" />
+								<img src="icons/vuejs.svg" alt="Vue JS" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
 								Vue
@@ -292,7 +292,7 @@ export default function Home() {
 						<div className="text-center">
 							<div
 								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="images/nodejs.svg" alt="Vue JS" className="h-8 w-8" />
+								<img src="icons/nodejs.svg" alt="Vue JS" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
 								Node
@@ -301,7 +301,7 @@ export default function Home() {
 						<div className="text-center">
 							<div
 								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="images/aem.svg" alt="Adove experience manager" className="h-8 w-8" />
+								<img src="icons/aem.svg" alt="Adove experience manager" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
 								AEM
@@ -310,7 +310,7 @@ export default function Home() {
 						<div className="text-center">
 							<div
 								className="grid place-content-center rounded-lg bg-light p-3 dark:bg-dark-2">
-								<img src="figma.svg" alt="Figma" className="h-8 w-8" />
+								<img src="icons/figma.svg" alt="Figma" className="h-8 w-8" />
 							</div>
 							<p className="mt-1 text-base font-medium text-dark dark:text-light/70">
 								Figma
@@ -348,20 +348,13 @@ export default function Home() {
 								className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
 							<a
-								href="project-1.png"
-								data-gall="project-gallry-1"
+								href="https://www.hbkworld.com/en"
+								target="_blank"
 								className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="none"
-									stroke="currentColor"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="1.5"
-									className="h-6 w-6">
-									<path d="M10 4.167v11.666M4.167 10h11.666" />
-								</svg>
+								<img
+								src="icons/external-link.svg"
+								className="h-6 w-6"
+								 alt="hbk" />
 							</a>
 						</div>
 
@@ -381,20 +374,13 @@ export default function Home() {
 								alt="Clinical trail"
 								className="h-full w-full rounded-t-lg object-cover object-top transition" />
 							<a
-								href="project-2.png"
-								data-gall="project-gallry-2"
+								href="https://www.clinicaltrials-glpg.com/"
+								target="_blank"
 								className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-								<svg
-									xmlns="http://www.w3.org/2000/svg"
-									viewBox="0 0 20 20"
-									fill="none"
-									stroke="currentColor"
-									strokeLinecap="round"
-									strokeLinejoin="round"
-									strokeWidth="1.5"
-									className="h-6 w-6">
-									<path d="M10 4.167v11.666M4.167 10h11.666" />
-								</svg>
+								<img
+								src="icons/external-link.svg"
+								className="h-6 w-6"
+								 alt="hbk" />
 							</a>
 						</div>
 

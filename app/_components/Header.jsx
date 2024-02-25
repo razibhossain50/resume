@@ -39,7 +39,7 @@ export default function Header() {
                                     d="M0 1.5A1.5 1.5 0 0 1 1.5 0H9a1.5 1.5 0 0 1 1.5 1.5v21A1.5 1.5 0 0 1 9 24H1.5A1.5 1.5 0 0 1 0 22.5v-21Zm13.5 0A1.5 1.5 0 0 1 15 0h7.5A1.5 1.5 0 0 1 24 1.5V9a1.5 1.5 0 0 1-1.5 1.5H15A1.5 1.5 0 0 1 13.5 9V1.5Zm0 13.5a1.5 1.5 0 0 1 1.5-1.5h7.5A1.5 1.5 0 0 1 24 15v7.5a1.5 1.5 0 0 1-1.5 1.5H15a1.5 1.5 0 0 1-1.5-1.5V15Z" />
                             </svg>
 
-                            <span> Razib<span className="text-primary">Hossain</span> </span>
+                            <span> Razib<span className="text-primary"> Hossain</span> </span>
                         </Link>
                         <ul className="hidden flex-1 flex-wrap items-center justify-center lg:flex">
                             <li className={`${pathName == "/" ? "active" : ""} group/menu-item`}>
@@ -181,6 +181,7 @@ export default function Header() {
 
                             <a
                                 href="Razib_Frontend_v3.pdf"
+                                target='_download'
                                 className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white leading-4">
                                 <span>Download Resume</span>
                             </a>
@@ -224,9 +225,9 @@ export default function Header() {
                     </div>
 
                     <ul className="mt-4 flex flex-1 flex-col gap-2">
-                        <li className="group/menu-item @@if(context.activeLink === 'home'){active}">
-                            <a
-                                href="index.html"
+                        <li className={`${pathName == "/" ? "active" : ""} group/menu-item`}>
+                            <Link
+                                href="/"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -242,11 +243,11 @@ export default function Header() {
                                     <path d="M13.333 12.5c-1.841 1.11-4.826 1.11-6.667 0" />
                                 </svg>
                                 <span>Home</span>
-                            </a>
+                            </Link>
                         </li>
-                        <li className="group/menu-item @@if(context.activeLink === 'about'){active}">
+                        <li className={`${pathName == "/about" ? "active" : ""} group/menu-item`}>
                             <a
-                                href="about.html"
+                                href="/about"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -266,9 +267,9 @@ export default function Header() {
                                 <span>About</span>
                             </a>
                         </li>
-                        <li className="group/menu-item @@if(context.activeLink === 'services'){active}">
+                        <li className={`${pathName == "/services" ? "active" : ""} group/menu-item`}>
                             <a
-                                href="services.html"
+                                href="/services"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -285,9 +286,9 @@ export default function Header() {
                                 <span>Services</span>
                             </a>
                         </li>
-                        <li className="group/menu-item @@if(context.activeLink === 'works'){active}">
+                        <li className={`${pathName == "/portfolio" ? "active" : ""} group/menu-item`}>
                             <a
-                                href="portfolio.html"
+                                href="/portfolio"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -304,9 +305,9 @@ export default function Header() {
                                 <span>Works</span>
                             </a>
                         </li>
-                        <li className="group/menu-item @@if(context.activeLink === 'blog'){active}">
-                            <a
-                                href="blog.html"
+                        {/* <li className={`${pathName == "/blogs" ? "active" : ""} group/menu-item`}">
+                            <Link
+                                href="/blogs"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -321,11 +322,11 @@ export default function Header() {
                                         d="m14.667 9.167 1.25-1.25a2.357 2.357 0 1 0-3.333-3.334l-8.75 8.75v3.334h3.333L8.834 15m2.916-9.583 3.333 3.333m.417 9.583 2.792-2.736a1.785 1.785 0 0 0 .004-2.56 1.87 1.87 0 0 0-2.608-.005l-.186.184-.186-.184a1.869 1.869 0 0 0-2.607-.005 1.787 1.787 0 0 0-.005 2.56l2.796 2.746Z" />
                                 </svg>
                                 <span>Blog</span>
-                            </a>
-                        </li>
-                        <li className="group/menu-item @@if(context.activeLink === 'contact'){active}">
+                            </Link>
+                        </li> */}
+                        <li className={`${pathName == "/contact" ? "active" : ""} group/menu-item`}>
                             <a
-                                href="contact.html"
+                                href="/contact"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
