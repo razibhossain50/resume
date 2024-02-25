@@ -517,13 +517,13 @@ export default function Home() {
 
 				<h2
 					className="mt-4 text-[40px] font-semibold leading-snug text-dark dark:text-light">
-					Let's👋 <br />
+					Let&apos;s👋 <br />
 					Work Together
 				</h2>
 					<Link
 						href="/contact"
 						className="mt-6 inline-flex items-center justify-center gap-2 border-b text-center text-base text-primary transition hover:border-b-primary dark:border-b-muted dark:hover:border-b-primary">
-						<span>Let's Talk</span>
+						<span>Let&apos;s Talk</span>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 20 20"

@@ -7,7 +7,7 @@ export default function Blogs  () {
                         My Recent Article
                     </h2>
                     <p className="mt-4 text-lg text-muted dark:text-light/70">
-                        I'm here to help if you are searching for a Software Engineer to bring
+                        I&apos;m here to help if you are searching for a Software Engineer to bring
                         your idea to life or a design partner to help take your business to the
                         next level.
                     </p>

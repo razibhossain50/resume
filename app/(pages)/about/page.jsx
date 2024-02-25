@@ -11,7 +11,7 @@ export default function About() {
         <div className="flex flex-col-reverse items-start gap-6 lg:flex-row lg:gap-10">
           <div className="">
             <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-              Hi, I'am <span className="text-primary">Razib Hossain</span> 👋
+              Hi, I&apos;am <span className="text-primary">Razib Hossain</span> 👋
             </h2>
             <p className="mt-4 text-lg text-muted dark:text-light/70 lg:mt-6 lg:text-2xl">
             A Professional <span className="font-semibold text-dark dark:text-white"> Software Engineer</span> having <span className="font-semibold text-dark dark:text-white">5+</span> years of experience and completed<span className="font-semibold text-dark dark:text-white">10+</span>  professional projects. I understand the importance of creating<span className="font-semibold text-dark dark:text-white"> user-centric </span> interfaces that provide an exceptional user experience. My experience working on <span className="font-semibold text-dark dark:text-white">cross-functional</span> teams has provided me with a strong understanding of the importance of collaboration and communication in achieving project success.
@@ -88,8 +88,8 @@ export default function About() {
                   </div>
 
                   <blockquote className="mt-6 flex-1 text-lg">
-                    "We've been using BentoFolio for over a year now,
-                    and I must say, it's been a game-changer for us. The
+                    We&apos;ve been using BentoFolio for over a year now,
+                    and I must say, it&apos;s been a game-changer for us. The
                     user interface is intuitive and the feature.
                   </blockquote>
 
@@ -121,8 +121,8 @@ export default function About() {
                   </div>
 
                   <blockquote className="mt-6 flex-1 text-lg">
-                    "We've been using BentoFolio for over a year now,
-                    and I must say, it's been a game-changer for us. The
+                    We&apos;ve been using BentoFolio for over a year now,
+                    and I must say, it&apos;s been a game-changer for us. The
                     user interface is intuitive and the feature.
                   </blockquote>
 
@@ -154,8 +154,8 @@ export default function About() {
                   </div>
 
                   <blockquote className="mt-6 flex-1 text-lg">
-                    "We've been using BentoFolio for over a year now,
-                    and I must say, it's been a game-changer for us. The
+                    &apos;We&apos;ve been using BentoFolio for over a year now,
+                    and I must say, it&apos;s been a game-changer for us. The
                     user interface is intuitive and the feature.
                   </blockquote>
 
@@ -187,8 +187,8 @@ export default function About() {
                   </div>
 
                   <blockquote className="mt-6 flex-1 text-lg">
-                    "We've been using BentoFolio for over a year now,
-                    and I must say, it's been a game-changer for us. The
+                  &apos;We&apos;ve been using BentoFolio for over a year now,
+                    and I must say, it&apos;s been a game-changer for us. The
                     user interface is intuitive and the feature.
                   </blockquote>
 
@@ -220,8 +220,8 @@ export default function About() {
                   </div>
 
                   <blockquote className="mt-6 flex-1 text-lg">
-                    "We've been using BentoFolio for over a year now,
-                    and I must say, it's been a game-changer for us. The
+                  &apos;We&apos;ve been using BentoFolio for over a year now,
+                    and I must say, it&apos;s been a game-changer for us. The
                     user interface is intuitive and the feature.
                   </blockquote>
 
@@ -496,18 +496,18 @@ export default function About() {
           <div className="group flex gap-6 overflow-hidden rounded-lg bg-light p-6 dark:bg-dark-2">
             <div className="relative flex min-w-full shrink-0 animate-infinite-scroll gap-6 group-hover:[animation-play-state:paused]">
               <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                Let's 👋 Work Together
+                Let&apos;s 👋 Work Together
               </a>
               <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                Let's 👋 Work Together
+                Let&apos;s 👋 Work Together
               </a>
             </div>
             <div className="relative flex min-w-full shrink-0 animate-infinite-scroll gap-6 group-hover:[animation-play-state:paused]">
               <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                Let's 👋 Work Together
+                Let&apos;s 👋 Work Together
               </a>
               <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                Let's 👋 Work Together
+                Let&apos;s 👋 Work Together
               </a>
             </div>
           </div>

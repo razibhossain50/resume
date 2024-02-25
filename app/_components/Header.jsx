@@ -181,7 +181,7 @@ export default function Header() {
 
                             <a
                                 href="Razib_Frontend_v3.pdf"
-                                className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white leading-4">
+                                className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white leading-4">
                                 <span>Download Resume</span>
                             </a>
                         </div>

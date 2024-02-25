@@ -209,8 +209,8 @@ export default function Services(){
                                         </div>
 
                                         <blockquote className="mt-6 flex-1 text-lg">
-                                            "We've been using BentoFolio for over a year now,
-                                            and I must say, it's been a game-changer for us. The
+                                        &apos;We&apos;ve been using BentoFolio for over a year now,
+                                            and I must say, it&apos;s been a game-changer for us. The
                                             user interface is intuitive and the feature.
                                         </blockquote>
 
@@ -243,8 +243,8 @@ export default function Services(){
                                         </div>
 
                                         <blockquote className="mt-6 flex-1 text-lg">
-                                            "We've been using BentoFolio for over a year now,
-                                            and I must say, it's been a game-changer for us. The
+                                        &apos;We&apos;ve been using BentoFolio for over a year now,
+                                            and I must say, it&apos;s been a game-changer for us. The
                                             user interface is intuitive and the feature.
                                         </blockquote>
 
@@ -277,8 +277,8 @@ export default function Services(){
                                         </div>
 
                                         <blockquote className="mt-6 flex-1 text-lg">
-                                            "We've been using BentoFolio for over a year now,
-                                            and I must say, it's been a game-changer for us. The
+                                        &apos;We&apos;ve been using BentoFolio for over a year now,
+                                            and I must say, it&apos;s been a game-changer for us. The
                                             user interface is intuitive and the feature.
                                         </blockquote>
 
@@ -469,7 +469,7 @@ export default function Services(){
                             <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
                                 <div className="px-6 pb-5">
                                     <p className="text-base xl:text-lg">
-                                        I'm here to help if you're searching for a product
+                                        I&apos;m here to help if you&apos;re searching for a product
                                         designer to bring your idea to life or a design partner
                                         to help take your business to the next level.
                                     </p>
@@ -509,7 +509,7 @@ export default function Services(){
                             <div className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300">
                                 <div className="px-6 pb-5">
                                     <p className="text-base xl:text-lg">
-                                        I'm here to help if you're searching for a product
+                                        I&apos;m here to help if you&apos;re searching for a product
                                         designer to bring your idea to life or a design partner
                                         to help take your business to the next level.
                                     </p>
@@ -549,7 +549,7 @@ export default function Services(){
                             <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
                                 <div className="px-6 pb-5">
                                     <p className="text-base xl:text-lg">
-                                        I'm here to help if you're searching for a product
+                                        I&apos;m here to help if you&apos;are searching for a product
                                         designer to bring your idea to life or a design partner
                                         to help take your business to the next level.
                                     </p>
@@ -589,7 +589,7 @@ export default function Services(){
                             <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
                                 <div className="px-6 pb-5">
                                     <p className="text-base xl:text-lg">
-                                        I'm here to help if you're searching for a product
+                                        I&apos;m here to help if you&apos;are searching for a product
                                         designer to bring your idea to life or a design partner
                                         to help take your business to the next level.
                                     </p>
@@ -629,7 +629,7 @@ export default function Services(){
                             <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
                                 <div className="px-6 pb-5">
                                     <p className="text-base xl:text-lg">
-                                        I'm here to help if you're searching for a product
+                                        I&apos;m here to help if you&apos;are searching for a product
                                         designer to bring your idea to life or a design partner
                                         to help take your business to the next level.
                                     </p>
@@ -642,18 +642,18 @@ export default function Services(){
                     <div className="group flex gap-6 overflow-hidden rounded-lg bg-light p-6 dark:bg-dark-2">
                         <div className="relative flex min-w-full shrink-0 animate-infinite-scroll gap-6 group-hover:[animation-play-state:paused]">
                             <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                                Let's 👋 Work Together
+                                Let&apos;s 👋 Work Together
                             </a>
                             <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                                Let's 👋 Work Together
+                                Let&apos;s 👋 Work Together
                             </a>
                         </div>
                         <div className="relative flex min-w-full shrink-0 animate-infinite-scroll gap-6 group-hover:[animation-play-state:paused]">
                             <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                                Let's 👋 Work Together
+                                Let&apos;s 👋 Work Together
                             </a>
                             <a href="contact.html" className="relative inline-block whitespace-nowrap text-3xl font-medium text-muted transition before:mr-3 before:content-['\2022'] hover:text-dark dark:text-muted dark:hover:text-white md:text-[40px]">
-                                Let's 👋 Work Together
+                                Let&apos;s 👋 Work Together
                             </a>
                         </div>
                     </div>
