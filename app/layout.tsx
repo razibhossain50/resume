@@ -1,4 +1,5 @@
 import PrelineScript from "./_components/PrelineScript";
+import Script from "next/script";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import Profile from "./_components/Profile";
@@ -10,7 +11,7 @@ export const metadata = {
 	description: "Pesonal portfolio website",
 };
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<body className={`relative h-screen overflow-y-auto overflow-x-hidden bg-light text-dark dark:bg-dark-2 dark:text-light `}>
@@ -41,8 +42,10 @@ export default function RootLayout({children}) {
 						<img src="icons/object-3d-2.png" alt="" className="" />
 					</div>
 				</div>
+				<Script src="scripts/plugins/clipboard.min.js" />
+				<Script src="scripts/main.js" />
 			</body>
-		   <PrelineScript />
+			<PrelineScript />
 		</html>
 	);
 }

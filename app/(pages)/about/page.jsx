@@ -92,7 +92,7 @@ export default function About() {
         </div>
         <div className="mt-10 lg:mt-14">
                 <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">
-                    Working Skills ✨
+                     Skills ✨
                 </h3>
                 <div className="mt-8 grid grid-cols-[repeat(auto-fit,_minmax(60px,1fr))] gap-2 lg:grid-cols-[repeat(auto-fit,_minmax(80px,1fr))] lg:gap-4">
                     <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">

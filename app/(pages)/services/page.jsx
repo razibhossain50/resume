@@ -112,70 +112,11 @@ export default function Services() {
                     </p>
                 </div>
             </div>
-            <div className="mt-10 aspect-video overflow-hidden rounded-lg bg-light dark:bg-dark-2 lg:mt-14">
-                <img src="blog-img-1.jpg" alt="" className="h-full w-full rounded-lg object-cover" />
-            </div>
-            <div className="mt-10 lg:mt-14">
-                <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">
-                    Working With 50+ Brands ✨ Worldwide
-                </h3>
-                <div className="mt-8 grid grid-cols-[repeat(auto-fit,_minmax(60px,1fr))] gap-2 lg:grid-cols-[repeat(auto-fit,_minmax(80px,1fr))] lg:gap-4">
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="notion.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="webflow.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="mico.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="framer.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="zeplin.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="figma.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="notion.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="webflow.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="mico.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="framer.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="zeplin.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="figma.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="notion.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="webflow.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="mico.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="framer.svg" alt="" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                </div>
-            </div>
             <div className="mt-10 lg:mt-14">
                 <div className="flex flex-wrap items-center justify-between gap-6">
                     <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">
-                        Trusted By 1200+ Clients
+                        Clients Feedback
                     </h3>
-
                     <div className="flex items-center gap-2">
                         <button className="review-carousel-button-prev grid h-9 w-9 place-content-center rounded-lg border border-muted/30 text-muted transition hover:border-primary hover:text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-5 w-5 shrink-0">
@@ -210,15 +151,15 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
-                                    <a href="#" className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
-                                        <span>framer.com</span>
+                                    <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
+                                        <span>fiver.com</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
                                             <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
                                         </svg>
@@ -226,16 +167,11 @@ export default function Services() {
                                 </div>
 
                                 <blockquote className="mt-6 flex-1 text-lg">
-                                    We&apos;ve been using BentoFolio for over a year now,
-                                    and I must say, it&apos;s been a game-changer for us. The
-                                    user interface is intuitive and the feature.
+                                GREAT! Love it It was fast and really nice! He made it outstanding by himself! Just send your wishes (like example website) and your wish comes true! Thanks alot - Really recommended for anyone who want&apos;s a good website!!
                                 </blockquote>
 
                                 <p className="mt-8 font-medium">
-                                    Oliver Clain -
-                                    <span className="font-normal text-muted">
-                                        Product Designer
-                                    </span>
+                                aquacentrum
                                 </p>
                             </div>
                         </SwiperSlide>
@@ -243,15 +179,15 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
+                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
-                                    <a href="#" className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
-                                        <span>framer.com</span>
+                                    <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
+                                        <span>fiver.com</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
                                             <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
                                         </svg>
@@ -259,16 +195,11 @@ export default function Services() {
                                 </div>
 
                                 <blockquote className="mt-6 flex-1 text-lg">
-                                    We&apos;ve been using BentoFolio for over a year now,
-                                    and I must say, it&apos;s been a game-changer for us. The
-                                    user interface is intuitive and the feature.
+                                Very knowledgeable and quickly solved a problem we had devoted hours to solving.
                                 </blockquote>
 
                                 <p className="mt-8 font-medium">
-                                    Oliver Clain -
-                                    <span className="font-normal text-muted">
-                                        Product Designer
-                                    </span>
+                                jesus4all
                                 </p>
                             </div>
                         </SwiperSlide>
@@ -276,15 +207,15 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
+                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
-                                    <a href="#" className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
-                                        <span>framer.com</span>
+                                    <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
+                                        <span>fiver.com</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
                                             <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
                                         </svg>
@@ -292,16 +223,12 @@ export default function Services() {
                                 </div>
 
                                 <blockquote className="mt-6 flex-1 text-lg">
-                                    &apos;We&apos;ve been using BentoFolio for over a year now,
-                                    and I must say, it&apos;s been a game-changer for us. The
-                                    user interface is intuitive and the feature.
+                                Raz delivered my order within few minutes, amazing.
+
                                 </blockquote>
 
                                 <p className="mt-8 font-medium">
-                                    Oliver Clain -
-                                    <span className="font-normal text-muted">
-                                        Product Designer
-                                    </span>
+                                umkhalid
                                 </p>
                             </div>
                         </SwiperSlide>
@@ -309,15 +236,15 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
+                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
-                                    <a href="#" className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
-                                        <span>framer.com</span>
+                                    <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
+                                        <span>fiver.com</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
                                             <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
                                         </svg>
@@ -325,16 +252,11 @@ export default function Services() {
                                 </div>
 
                                 <blockquote className="mt-6 flex-1 text-lg">
-                                    &apos;We&apos;ve been using BentoFolio for over a year now,
-                                    and I must say, it&apos;s been a game-changer for us. The
-                                    user interface is intuitive and the feature.
+                                Loved it!! She is Quick, professional and knows hers stuff. Thank you!! Look no further this gig is AWESOME!
                                 </blockquote>
 
                                 <p className="mt-8 font-medium">
-                                    Oliver Clain -
-                                    <span className="font-normal text-muted">
-                                        Product Designer
-                                    </span>
+                                adrianadixon
                                 </p>
                             </div>
                         </SwiperSlide>
@@ -342,15 +264,15 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
-                                        <img src="star-full.svg" alt="" className="h-4 w-4 shrink-0" />
+                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
-                                    <a href="#" className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
-                                        <span>framer.com</span>
+                                    <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
+                                        <span>fiver.com</span>
                                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
                                             <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
                                         </svg>
@@ -358,364 +280,15 @@ export default function Services() {
                                 </div>
 
                                 <blockquote className="mt-6 flex-1 text-lg">
-                                    &apos;We&apos;ve been using BentoFolio for over a year now,
-                                    and I must say, it&apos;s been a game-changer for us. The
-                                    user interface is intuitive and the feature.
+                                Fast response, quick fulfillment, great price. What more could you ask for. Highly recommend 11/10.
                                 </blockquote>
 
                                 <p className="mt-8 font-medium">
-                                    Oliver Clain -
-                                    <span className="font-normal text-muted">
-                                        Product Designer
-                                    </span>
+                                ernie33
                                 </p>
                             </div>
                         </SwiperSlide>
                     </Swiper>
-                </div>
-            </div>
-            <div className="mt-10 lg:mt-14">
-                <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">
-                    Awards and Recognitions
-                </h3>
-
-                <div className="mt-8 space-y-4">
-                    <div className="group relative grid grid-cols-1 items-center gap-4 rounded-lg border border-transparent bg-light p-6 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
-                        <div className="flex flex-col gap-4 md:col-span-2 md:flex-row md:items-center md:gap-6">
-                            <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
-                                <img src="adobe.svg" alt="" className="h-6 w-6 shrink-0" />
-                            </div>
-                            <div className="">
-                                <h5 className="font-medium leading-tight text-dark dark:text-light xl:text-lg xl:leading-tight">
-                                    Adobe Design Contest
-                                </h5>
-                                <p className="text-muted">2022 - 2023</p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-center gap-1.5">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-5 w-5 shrink-0">
-                                <path d="M6 9.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z" />
-                                <path d="m12 15.5 3.4 5.89 1.598-3.233 3.598.232-3.4-5.889m-10.394 0-3.4 5.89L7 18.157l1.598 3.232 3.4-5.889" />
-                            </svg>
-                            <h5 className="font-medium leading-tight text-dark dark:text-light">
-                                Runner Up
-                            </h5>
-                        </div>
-
-                        <div className="text-right">
-                            <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-3 py-2 text-center text-sm leading-none text-dark transition after:absolute after:inset-0 after:h-full after:w-full after:content-[''] hover:bg-light hover:text-primary dark:bg-black dark:text-light/70 dark:hover:bg-dark-2 dark:hover:text-primary">
-                                <span>View Project</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
-                                    <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="group relative grid grid-cols-1 items-center gap-4 rounded-lg border border-transparent bg-light p-6 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
-                        <div className="flex flex-col gap-4 md:col-span-2 md:flex-row md:items-center md:gap-6">
-                            <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
-                                <img src="dribbble.svg" alt="" className="h-6 w-6 shrink-0" />
-                            </div>
-                            <div className="">
-                                <h5 className="font-medium leading-tight text-dark dark:text-light xl:text-lg xl:leading-tight">
-                                    Dribbble Design Contest
-                                </h5>
-                                <p className="text-muted">2022 - 2023</p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-center gap-1.5">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-5 w-5 shrink-0">
-                                <path d="M6 9.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z" />
-                                <path d="m12 15.5 3.4 5.89 1.598-3.233 3.598.232-3.4-5.889m-10.394 0-3.4 5.89L7 18.157l1.598 3.232 3.4-5.889" />
-                            </svg>
-                            <h5 className="font-medium leading-tight text-dark dark:text-light">
-                                Gold Winner
-                            </h5>
-                        </div>
-
-                        <div className="text-right">
-                            <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-3 py-2 text-center text-sm leading-none text-dark transition after:absolute after:inset-0 after:h-full after:w-full after:content-[''] hover:bg-light hover:text-primary dark:bg-black dark:text-light/70 dark:hover:bg-dark-2 dark:hover:text-primary">
-                                <span>View Project</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
-                                    <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="group relative grid grid-cols-1 items-center gap-4 rounded-lg border border-transparent bg-light p-6 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
-                        <div className="flex flex-col gap-4 md:col-span-2 md:flex-row md:items-center md:gap-6">
-                            <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
-                                <img src="awwwards.png" alt="" className="h-6 w-6 shrink-0" />
-                            </div>
-                            <div className="">
-                                <h5 className="font-medium leading-tight text-dark dark:text-light xl:text-lg xl:leading-tight">
-                                    Awwwards Nominee
-                                </h5>
-                                <p className="text-muted">2022 - 2023</p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-center gap-1.5">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-5 w-5 shrink-0">
-                                <path d="M6 9.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z" />
-                                <path d="m12 15.5 3.4 5.89 1.598-3.233 3.598.232-3.4-5.889m-10.394 0-3.4 5.89L7 18.157l1.598 3.232 3.4-5.889" />
-                            </svg>
-                            <h5 className="font-medium leading-tight text-dark dark:text-light">
-                                Runner Up
-                            </h5>
-                        </div>
-
-                        <div className="text-right">
-                            <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-3 py-2 text-center text-sm leading-none text-dark transition after:absolute after:inset-0 after:h-full after:w-full after:content-[''] hover:bg-light hover:text-primary dark:bg-black dark:text-light/70 dark:hover:bg-dark-2 dark:hover:text-primary">
-                                <span>View Project</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
-                                    <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="group relative grid grid-cols-1 items-center gap-4 rounded-lg border border-transparent bg-light p-6 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
-                        <div className="flex flex-col gap-4 md:col-span-2 md:flex-row md:items-center md:gap-6">
-                            <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
-                                <img src="behance.svg" alt="" className="h-6 w-6 shrink-0" />
-                            </div>
-                            <div className="">
-                                <h5 className="font-medium leading-tight text-dark dark:text-light xl:text-lg xl:leading-tight">
-                                    Behance Design Contest
-                                </h5>
-                                <p className="text-muted">2022 - 2023</p>
-                            </div>
-                        </div>
-
-                        <div className="flex items-center gap-1.5">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-5 w-5 shrink-0">
-                                <path d="M6 9.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0Z" />
-                                <path d="m12 15.5 3.4 5.89 1.598-3.233 3.598.232-3.4-5.889m-10.394 0-3.4 5.89L7 18.157l1.598 3.232 3.4-5.889" />
-                            </svg>
-                            <h5 className="font-medium leading-tight text-dark dark:text-light">
-                                Gold Winner
-                            </h5>
-                        </div>
-
-                        <div className="text-right">
-                            <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-3 py-2 text-center text-sm leading-none text-dark transition after:absolute after:inset-0 after:h-full after:w-full after:content-[''] hover:bg-light hover:text-primary dark:bg-black dark:text-light/70 dark:hover:bg-dark-2 dark:hover:text-primary">
-                                <span>View Project</span>
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-3.5 w-3.5 shrink-0">
-                                    <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="mt-10 lg:mt-14">
-                <h3 className="text-2xl font-medium text-dark dark:text-light lg:text-3xl">
-                    Frequently Asked Questions
-                </h3>
-
-                <div className="hs-accordion-group mt-8 space-y-4">
-                    <div className="hs-accordion rounded-lg border border-transparent bg-light transition hs-accordion-active:border-light hs-accordion-active:bg-white dark:border-transparent dark:bg-dark-2 dark:hs-accordion-active:border-dark-2 dark:hs-accordion-active:bg-black">
-                        <button className="hs-accordion-toggle inline-flex w-full items-center justify-between gap-x-3 px-6 py-5 text-start text-lg font-medium text-dark transition hover:text-muted disabled:pointer-events-none disabled:opacity-50 hs-accordion-active:text-primary dark:text-light/70 dark:hover:text-light dark:focus:outline-none dark:hs-accordion-active:text-primary xl:text-2xl">
-                            <span>What does a product designer need to know?</span>
-                            <span
-                                className="grid h-8 w-8 shrink-0 place-content-center rounded bg-white text-primary hs-accordion-active:bg-light dark:bg-black dark:hs-accordion-active:bg-dark-2">
-                                <svg
-                                    className="block h-3.5 w-3.5 hs-accordion-active:hidden"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                    <path d="M12 5v14" />
-                                </svg>
-                                <svg
-                                    className="hidden h-3.5 w-3.5 hs-accordion-active:block"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                </svg>
-                            </span>
-                        </button>
-                        <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
-                            <div className="px-6 pb-5">
-                                <p className="text-base xl:text-lg">
-                                    I&apos;m here to help if you&apos;re searching for a product
-                                    designer to bring your idea to life or a design partner
-                                    to help take your business to the next level.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="hs-accordion active rounded-lg border border-transparent bg-light transition hs-accordion-active:border-light hs-accordion-active:bg-white dark:border-transparent dark:bg-dark-2 dark:hs-accordion-active:border-dark-2 dark:hs-accordion-active:bg-black">
-                        <button className="hs-accordion-toggle inline-flex w-full items-center justify-between gap-x-3 px-6 py-5 text-start text-lg font-medium text-dark transition hover:text-muted disabled:pointer-events-none disabled:opacity-50 hs-accordion-active:text-primary dark:text-light/70 dark:hover:text-light dark:focus:outline-none dark:hs-accordion-active:text-primary xl:text-2xl">
-                            <span>What does a product designer need to know?</span>
-                            <span
-                                className="grid h-8 w-8 shrink-0 place-content-center rounded bg-white text-primary hs-accordion-active:bg-light dark:bg-black dark:hs-accordion-active:bg-dark-2">
-                                <svg
-                                    className="block h-3.5 w-3.5 hs-accordion-active:hidden"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                    <path d="M12 5v14" />
-                                </svg>
-                                <svg
-                                    className="hidden h-3.5 w-3.5 hs-accordion-active:block"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                </svg>
-                            </span>
-                        </button>
-                        <div className="hs-accordion-content w-full overflow-hidden transition-[height] duration-300">
-                            <div className="px-6 pb-5">
-                                <p className="text-base xl:text-lg">
-                                    I&apos;m here to help if you&apos;re searching for a product
-                                    designer to bring your idea to life or a design partner
-                                    to help take your business to the next level.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="hs-accordion rounded-lg border border-transparent bg-light transition hs-accordion-active:border-light hs-accordion-active:bg-white dark:border-transparent dark:bg-dark-2 dark:hs-accordion-active:border-dark-2 dark:hs-accordion-active:bg-black">
-                        <button className="hs-accordion-toggle inline-flex w-full items-center justify-between gap-x-3 px-6 py-5 text-start text-lg font-medium text-dark transition hover:text-muted disabled:pointer-events-none disabled:opacity-50 hs-accordion-active:text-primary dark:text-light/70 dark:hover:text-light dark:focus:outline-none dark:hs-accordion-active:text-primary xl:text-2xl">
-                            <span>What does a product designer need to know?</span>
-                            <span
-                                className="grid h-8 w-8 shrink-0 place-content-center rounded bg-white text-primary hs-accordion-active:bg-light dark:bg-black dark:hs-accordion-active:bg-dark-2">
-                                <svg
-                                    className="block h-3.5 w-3.5 hs-accordion-active:hidden"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                    <path d="M12 5v14" />
-                                </svg>
-                                <svg
-                                    className="hidden h-3.5 w-3.5 hs-accordion-active:block"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                </svg>
-                            </span>
-                        </button>
-                        <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
-                            <div className="px-6 pb-5">
-                                <p className="text-base xl:text-lg">
-                                    I&apos;m here to help if you&apos;are searching for a product
-                                    designer to bring your idea to life or a design partner
-                                    to help take your business to the next level.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="hs-accordion rounded-lg border border-transparent bg-light transition hs-accordion-active:border-light hs-accordion-active:bg-white dark:border-transparent dark:bg-dark-2 dark:hs-accordion-active:border-dark-2 dark:hs-accordion-active:bg-black">
-                        <button className="hs-accordion-toggle inline-flex w-full items-center justify-between gap-x-3 px-6 py-5 text-start text-lg font-medium text-dark transition hover:text-muted disabled:pointer-events-none disabled:opacity-50 hs-accordion-active:text-primary dark:text-light/70 dark:hover:text-light dark:focus:outline-none dark:hs-accordion-active:text-primary xl:text-2xl">
-                            <span>What does a product designer need to know?</span>
-                            <span
-                                className="grid h-8 w-8 shrink-0 place-content-center rounded bg-white text-primary hs-accordion-active:bg-light dark:bg-black dark:hs-accordion-active:bg-dark-2">
-                                <svg
-                                    className="block h-3.5 w-3.5 hs-accordion-active:hidden"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                    <path d="M12 5v14" />
-                                </svg>
-                                <svg
-                                    className="hidden h-3.5 w-3.5 hs-accordion-active:block"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                </svg>
-                            </span>
-                        </button>
-                        <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
-                            <div className="px-6 pb-5">
-                                <p className="text-base xl:text-lg">
-                                    I&apos;m here to help if you&apos;are searching for a product
-                                    designer to bring your idea to life or a design partner
-                                    to help take your business to the next level.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="hs-accordion rounded-lg border border-transparent bg-light transition hs-accordion-active:border-light hs-accordion-active:bg-white dark:border-transparent dark:bg-dark-2 dark:hs-accordion-active:border-dark-2 dark:hs-accordion-active:bg-black">
-                        <button className="hs-accordion-toggle inline-flex w-full items-center justify-between gap-x-3 px-6 py-5 text-start text-lg font-medium text-dark transition hover:text-muted disabled:pointer-events-none disabled:opacity-50 hs-accordion-active:text-primary dark:text-light/70 dark:hover:text-light dark:focus:outline-none dark:hs-accordion-active:text-primary xl:text-2xl">
-                            <span>What does a product designer need to know?</span>
-                            <span
-                                className="grid h-8 w-8 shrink-0 place-content-center rounded bg-white text-primary hs-accordion-active:bg-light dark:bg-black dark:hs-accordion-active:bg-dark-2">
-                                <svg
-                                    className="block h-3.5 w-3.5 hs-accordion-active:hidden"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                    <path d="M12 5v14" />
-                                </svg>
-                                <svg
-                                    className="hidden h-3.5 w-3.5 hs-accordion-active:block"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    strokeWidth="2"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round">
-                                    <path d="M5 12h14" />
-                                </svg>
-                            </span>
-                        </button>
-                        <div className="hs-accordion-content hidden w-full overflow-hidden transition-[height] duration-300">
-                            <div className="px-6 pb-5">
-                                <p className="text-base xl:text-lg">
-                                    I&apos;m here to help if you&apos;are searching for a product
-                                    designer to bring your idea to life or a design partner
-                                    to help take your business to the next level.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
             <div className="mt-10 lg:mt-14">

@@ -4,25 +4,22 @@ export default function Portfolio () {
     <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
                 <div className="">
                     <h2 className="text-3xl font-semibold leading-tight text-dark dark:text-light lg:text-[40px] lg:leading-tight">
-                        Check Out My Latest <span className="text-primary">Projects</span>
+                        All <span className="text-primary">Projects</span>
                     </h2>
-                    <p className="mt-4 text-lg text-muted dark:text-light/70">
-                        Im here to help if youre searching for a product designer to bring
-                        your idea to life or a design partner to help take your business to the
-                        next level.
+                    <p className="mt-4 text-lg text-muted dark:text-light/70 lg:mt-6 lg:text-2xl">
+                        Transforming Ideas into Innovative Reality, Empower Your Vision with
+                        Our Expert <span className="font-semibold text-dark dark:text-white">Software Development</span>  Services!
                     </p>
                 </div>
                 <div className="mt-10 lg:mt-14">
-                    <div className="mt-6 space-y-6">
-                        <div className="">
+                    <div className="mt-6 grid md:grid-cols-2 gap-4">
+                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="project-1.png" alt="" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src="images/project1.png" alt="hbk" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
-                                    <a href="project-1.png" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-6 w-6">
-                                            <path d="M10 4.167v11.666M4.167 10h11.666" />
-                                        </svg>
+                                    <a href="https://www.hbkworld.com/en" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
+                                        <img src="icons/external-link.svg" alt="hbk" />
                                     </a>
                                 </div>
                             </div>
@@ -30,16 +27,16 @@ export default function Portfolio () {
                             <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
                                 <div className="">
                                     <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
-                                        <a href="#" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
-                                            FlowSaaS - SaaS Application Tools
+                                        <a href="https://www.hbkworld.com/en" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
+                                            HBK - Empower the Innovators
                                         </a>
                                     </h3>
                                     <p className="text-sm text-muted lg:text-base">
-                                        SaaS App | UI UX Design
+                                      Web Application [Health Tech]
                                     </p>
                                 </div>
 
-                                <a href="#" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
+                                <a href="https://www.hbkworld.com/en" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
                                     <span>Visit Site</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
                                         <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
@@ -47,16 +44,13 @@ export default function Portfolio () {
                                 </a>
                             </div>
                         </div>
-
-                        <div className="">
+                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="project-2.png" alt="" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src="images/project2.png" alt="Clinical trails" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
-                                    <a href="project-2.png" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-6 w-6">
-                                            <path d="M10 4.167v11.666M4.167 10h11.666" />
-                                        </svg>
+                                    <a href="https://www.clinicaltrials-glpg.com/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
+                                        <img src="icons/external-link.svg" alt="hbk" />
                                     </a>
                                 </div>
                             </div>
@@ -64,16 +58,16 @@ export default function Portfolio () {
                             <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
                                 <div className="">
                                     <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
-                                        <a href="#" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
-                                            AIMug - AI Writing Application Tools
+                                        <a href="https://www.clinicaltrials-glpg.com/" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
+                                            Clinical Trails - organize clinical trials in various therapeutic areas
                                         </a>
                                     </h3>
                                     <p className="text-sm text-muted lg:text-base">
-                                        Product Design | Application
+                                      Web Application [Health Tech]
                                     </p>
                                 </div>
 
-                                <a href="#" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
+                                <a href="https://www.clinicaltrials-glpg.com/" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
                                     <span>Visit Site</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
                                         <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
@@ -81,16 +75,13 @@ export default function Portfolio () {
                                 </a>
                             </div>
                         </div>
-
-                        <div className="">
+                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="project-3.png" alt="" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src="images/project4.png" alt="rosea" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
-                                    <a href="project-3.png" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-6 w-6">
-                                            <path d="M10 4.167v11.666M4.167 10h11.666" />
-                                        </svg>
+                                    <a href="https://rosea.nop-station.com/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
+                                        <img src="icons/external-link.svg" alt="rosea" />
                                     </a>
                                 </div>
                             </div>
@@ -98,16 +89,47 @@ export default function Portfolio () {
                             <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
                                 <div className="">
                                     <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
-                                        <a href="#" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
-                                            FlowArch - Architecture Service Website
+                                        <a href="https://rosea.nop-station.com/" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
+                                            Rosea - Ecommerce Solution
                                         </a>
                                     </h3>
                                     <p className="text-sm text-muted lg:text-base">
-                                        UI UX Design | Development
+                                      Ecommerce Application
                                     </p>
                                 </div>
 
-                                <a href="#" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
+                                <a href="https://rosea.nop-station.com/" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
+                                    <span>Visit Site</span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
+                                        <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
+                            <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
+                                <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
+                                    <img src="images/project3.png" alt="Flexi" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+
+                                    <a href="https://razibmahmud50.github.io/flexi/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
+                                        <img src="icons/external-link.svg" alt="Flexi" />
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
+                                <div className="">
+                                    <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
+                                        <a href="https://razibmahmud50.github.io/flexi/" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
+                                            Flexi - Your personal portfolio
+                                        </a>
+                                    </h3>
+                                    <p className="text-sm text-muted lg:text-base">
+                                      Personal Web Application
+                                    </p>
+                                </div>
+
+                                <a href="https://razibmahmud50.github.io/flexi/" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
                                     <span>Visit Site</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
                                         <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
@@ -116,7 +138,7 @@ export default function Portfolio () {
                             </div>
                         </div>
                     </div>
-                    <nav className="mt-10 flex items-center justify-center gap-1.5">
+                    {/* <nav className="mt-10 flex items-center justify-center gap-1.5">
                         <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="h-4 w-4">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
@@ -157,7 +179,7 @@ export default function Portfolio () {
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
                             </svg>
                         </button>
-                    </nav>
+                    </nav> */}
                 </div>
                 <div className="mt-10 lg:mt-14">
                     <div className="group flex gap-6 overflow-hidden rounded-lg bg-light p-6 dark:bg-dark-2">
