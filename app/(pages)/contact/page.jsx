@@ -9,7 +9,8 @@ export default function Contact() {
             </div>
 
             <div className="mt-10 lg:mt-14">
-                <form id="contact-form" method="post" action="assets/php/contact_email.php" className="space-y-6 rounded-lg bg-light p-6 dark:bg-dark-2 xl:p-12">
+                <form id="contact-form" method="post" action="https://api.web3forms.com/submit" className="space-y-6 rounded-lg bg-light p-6 dark:bg-dark-2 xl:p-12">
+                    <input type="hidden" name="access_key" value="dfebb949-e55c-4381-8020-baf2e5a5f098"/>
                     <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
                         <div className="">
                             <label htmlFor="name" className="mb-2 block text-sm font-medium text-dark dark:text-light">

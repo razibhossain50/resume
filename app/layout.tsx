@@ -7,7 +7,7 @@ import "./styles/swiper-bundle.min.css";
 import "./globals.css";
 
 export const metadata = {
-	title: "Razib portfolio",
+	title: "Razib Hossain",
 	description: "Pesonal portfolio website",
 };
 

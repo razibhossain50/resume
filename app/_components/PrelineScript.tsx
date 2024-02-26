@@ -2,6 +2,7 @@
 
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
+import { HSOverlay } from "preline";
 
 
 import { IStaticMethods } from "preline/preline";
@@ -20,6 +21,7 @@ export default function PrelineScript() {
 
   useEffect(() => {
     setTimeout(() => {
+      HSOverlay.autoInit();
       window.HSStaticMethods.autoInit();
     }, 100);
   }, [path]);
