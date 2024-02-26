@@ -1,5 +1,4 @@
 "use client";
-import Image from 'next/image'
 import CopyToClipboardButton from './CopyToClipboardButton';
 
 export default function Profile() {
@@ -9,12 +8,10 @@ export default function Profile() {
 			<div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:sticky lg:top-24">
 				<div
 					className="aspect-6/4 overflow-hidden rounded-lg bg-light pt-4 text-center dark:bg-dark-2">
-					<Image
+					<img
 						src="/images/profile.jpg"
 						className='inline-block h-full w-full scale-110 object-contain object-bottom'
 						alt="Profile"
-						width={340}
-						height={240}
 					/>
 				</div>
 
