@@ -4,7 +4,7 @@ export default function Contact() {
         <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
             <div className="">
                 <h2 className="text-3xl font-semibold leading-tight text-dark dark:text-light lg:text-[40px] lg:leading-tight">
-                    Lets 👋 <span className="text-primary">Work</span> Together
+                    Let&apos;s 👋 <span className="text-primary">Work</span> Together
                 </h2>
             </div>
 
@@ -40,7 +40,7 @@ export default function Contact() {
                             Message
                         </label>
 
-                        <textarea required id="message" name="message" placeholder="Type details about your inquiry" rows="4" className="block w-full rounded-lg border border-gray-200 bg-white px-6 py-4 text-base outline-none transition focus:border-dark focus:ring focus:ring-dark/20 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:bg-black dark:text-white dark:focus:border-muted dark:focus:ring-white/20"></textarea>
+                        <textarea required id="message" name="message" placeholder="Type details about your message" rows="4" className="block w-full rounded-lg border border-gray-200 bg-white px-6 py-4 text-base outline-none transition focus:border-dark focus:ring focus:ring-dark/20 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:bg-black dark:text-white dark:focus:border-muted dark:focus:ring-white/20"></textarea>
                     </div>
 
                     <button type="submit" className="inline-flex w-full items-center justify-center gap-x-2 rounded-lg border border-transparent bg-primary px-6 py-4 text-center font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50">
