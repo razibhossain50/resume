@@ -1,7 +1,9 @@
+"use client";
 import Image from 'next/image'
-
+import CopyToClipboardButton from './CopyToClipboardButton';
 
 export default function Profile() {
+	const textToCopy = 'razibmahmud50@gmail.com';
 	return (
 		<div>
 			<div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:sticky lg:top-24">
@@ -23,14 +25,7 @@ export default function Profile() {
 						having <span className="font-semibold text-dark dark:text-white"> 5+ years </span> of Experiences over <span className="font-semibold text-dark dark:text-white"> 12+ </span> Country worldwide.
 					</p>
 					<div className="mt-6 flex flex-wrap gap-2">
-						<button
-							type="button" data-clipboard-text="razibmahmud50@gmail.com" data-clipboard-action="copy" data-clipboard-success-text="Copied to clipboard" className="js-clipboard hs-tooltip inline-flex items-center gap-x-2 rounded-lg border border-transparent bg-primary w-full justify-center px-6 py-4 font-medium text-white transition hover:bg-blue-600 focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50">
-							<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" className="h-6 w-6">
-                                <path d="M8 10a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-8a2 2 0 0 1-2-2v-8Z" />
-                                <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
-                            </svg>
-							<span>Copy Email</span>
-						</button>
+						<CopyToClipboardButton text={textToCopy} />
 					</div>
 					<div className="mt-8 flex flex-wrap items-center gap-2 justify-center">
 						<a

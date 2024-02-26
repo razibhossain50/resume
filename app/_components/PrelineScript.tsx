@@ -3,7 +3,6 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-
 import { IStaticMethods } from "preline/preline";
 declare global {
   interface Window {

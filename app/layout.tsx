@@ -42,8 +42,6 @@ export default function RootLayout({ children }) {
 						<img src="icons/object-3d-2.png" alt="" className="" />
 					</div>
 				</div>
-				<Script src="scripts/plugins/clipboard.min.js" />
-				<Script src="scripts/main.js" />
 			</body>
 			<PrelineScript />
 		</html>

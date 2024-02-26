@@ -1,4 +1,5 @@
 
+"use client";
 export default function Portfolio () {
   return (
     <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
