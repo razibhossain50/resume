@@ -17,10 +17,10 @@ export default function Portfolio () {
                         <div className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="images/project1.png" alt="hbk" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src="/images/project1.png" alt="hbk" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
                                     <a href="https://www.hbkworld.com/en" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="icons/external-link.svg" alt="hbk" />
+                                        <img src="/icons/external-link.svg" alt="hbk" />
                                     </a>
                                 </div>
                             </div>
@@ -48,10 +48,10 @@ export default function Portfolio () {
                         <div className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="images/project2.png" alt="Clinical trails" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src="/images/project2.png" alt="Clinical trails" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
                                     <a href="https://www.clinicaltrials-glpg.com/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="icons/external-link.svg" alt="hbk" />
+                                        <img src="/icons/external-link.svg" alt="hbk" />
                                     </a>
                                 </div>
                             </div>
@@ -79,10 +79,10 @@ export default function Portfolio () {
                         <div className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="images/project4.png" alt="rosea" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src="/images/project4.png" alt="rosea" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
                                     <a href="https://rosea.nop-station.com/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="icons/external-link.svg" alt="rosea" />
+                                        <img src="/icons/external-link.svg" alt="rosea" />
                                     </a>
                                 </div>
                             </div>
@@ -110,10 +110,10 @@ export default function Portfolio () {
                         <div className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="images/project3.png" alt="Flexi" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src="/images/project3.png" alt="Flexi" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
                                     <a href="https://razibmahmud50.github.io/flexi/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="icons/external-link.svg" alt="Flexi" />
+                                        <img src="/icons/external-link.svg" alt="Flexi" />
                                     </a>
                                 </div>
                             </div>

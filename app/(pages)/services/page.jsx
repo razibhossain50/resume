@@ -151,11 +151,11 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
                                     <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
@@ -179,11 +179,11 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                    <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
                                     <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
@@ -207,11 +207,11 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                    <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
                                     <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
@@ -236,11 +236,11 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                    <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
                                     <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">
@@ -264,11 +264,11 @@ export default function Services() {
                             <div className="flex h-full flex-col justify-between rounded-lg bg-light p-6 dark:bg-dark-2">
                                 <div className="flex flex-wrap items-center justify-between gap-4">
                                     <div className="flex flex-wrap items-center gap-1">
-                                    <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
-                                        <img src="icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                    <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
+                                        <img src="/icons/star-full.svg" alt="star" className="h-4 w-4 shrink-0" />
                                     </div>
 
                                     <a href="https://www.fiverr.com/razuahmed290?up_rollout=true" target='__blank' className="inline-flex items-center gap-2 rounded bg-white px-2 py-1 text-sm leading-none text-primary transition hover:bg-primary hover:text-white dark:bg-black">

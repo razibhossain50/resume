@@ -3,7 +3,7 @@ export default function BlogItem(){
     return(
         <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
                 <figure className="aspect-video overflow-hidden rounded-lg">
-                    <img src="blog-img-1.jpg" alt="" className="h-full w-full object-cover" />
+                    <img src="/blog-img-1.jpg" alt="" className="h-full w-full object-cover" />
                 </figure>
 
                 <ul className="mt-4 flex flex-wrap items-center gap-4 md:gap-6">
@@ -140,7 +140,7 @@ export default function BlogItem(){
                         <div className="">
                             <div className="relative">
                                 <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-1.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
+                                    <img src="/blog-img-1.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
                                 </a>
                                 <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
                                     <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">
@@ -168,7 +168,7 @@ export default function BlogItem(){
                         <div className="">
                             <div className="relative">
                                 <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-1.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
+                                    <img src="/blog-img-1.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
                                 </a>
                                 <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
                                     <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">

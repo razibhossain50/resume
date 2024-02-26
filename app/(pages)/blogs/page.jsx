@@ -17,7 +17,7 @@ export default function Blogs  () {
                         <div className="">
                             <div className="relative">
                                 <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-1.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
+                                    <img src="/blog-img-1.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
                                 </a>
                                 <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
                                     <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">
@@ -45,7 +45,7 @@ export default function Blogs  () {
                         <div className="">
                             <div className="relative">
                                 <a href="article.html" className="group block aspect-6/4 overflow-hidden rounded-lg">
-                                    <img src="blog-img-2.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
+                                    <img src="/blog-img-2.jpg" alt="" className="h-full w-full rounded-lg object-cover transition duration-700 group-hover:scale-105" />
                                 </a>
                                 <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
                                     <a href="#" className="inline-flex items-center justify-center gap-2 rounded bg-white px-2 py-1 text-center text-xs leading-none text-primary shadow transition hover:bg-primary hover:text-white">
