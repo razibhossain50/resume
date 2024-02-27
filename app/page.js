@@ -24,7 +24,7 @@ export default function Home() {
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -45,7 +45,7 @@ export default function Home() {
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -59,12 +59,12 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2020 - 2021
+									2019 - 2020
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -78,12 +78,12 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2019 - 2020
+									2018 - 2019
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -97,12 +97,12 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2018 - 2018
+									2017 - 2018
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -116,12 +116,12 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2017 - 2018
+									2016 - 2017
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -145,7 +145,7 @@ export default function Home() {
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -166,7 +166,7 @@ export default function Home() {
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -180,12 +180,12 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2020 - 2021
+									2019 - 2020
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -199,12 +199,12 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2019 - 2020
+									2018 - 2019
 								</p>
 								<div className="flex items-center gap-3">
 									<div
 										className="grid h-8 w-8 shrink-0 place-content-center rounded-lg bg-light dark:bg-dark-2">
-										<img src="/images/company.svg" alt="company" className="h-5 w-5" />
+										<img src="/icons/company.svg" alt="company" className="h-5 w-5" />
 									</div>
 									<div className="">
 										<h6
@@ -218,7 +218,7 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2018 - 2018
+									2017 - 2018
 								</p>
 								<div className="flex items-center gap-3">
 									<div
@@ -237,7 +237,7 @@ export default function Home() {
 							<div className="flex flex-col gap-1 md:flex-row md:gap-10">
 								<p
 									className="mt-1 text-sm font-medium text-muted dark:text-light/70">
-									2017 - 2018
+									2016 - 2017
 								</p>
 								<div className="flex items-center gap-3">
 									<div

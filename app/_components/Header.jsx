@@ -181,7 +181,8 @@ export default function Header() {
 
                             <a
                                 href="Razib_Frontend_v3.pdf"
-                                target='_blank' download="Razib_hossain_resume"
+                                download="Razib_hossain_resume"
+                                target='__blank'
                                 className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white leading-4">
                                 <span>Download Resume</span>
                             </a>
@@ -365,7 +366,7 @@ export default function Header() {
                                 ) : (
                                     <button
                                     onClick={toggleDarkMode}
-                            className="hs-dark-mode w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light hs-dark-mode-active:flex dark:hover:bg-dark dark:hover:text-white">
+                            className="hs-dark-mode w-full items-center justify-start gap-2 rounded-lg px-4 py-2 text-center text-sm text-muted transition hover:bg-light flex dark:hover:bg-dark dark:hover:text-white">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="currentColor"
@@ -379,6 +380,8 @@ export default function Header() {
                         </button>
                                 )}
                         <a
+                            target='__blank'
+                            download="Razib_hossain_resume"
                             href="Razib_Frontend_v3.pdf"
                             className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
                             <span>Download Resume</span>
