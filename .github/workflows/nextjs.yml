@@ -57,8 +57,7 @@ jobs:
         with:
           name: nextjs-build
           path: ./out 
-      - name: Downlod Artifacts 
-          path: ./out 
+      - name: Downlod Artifacts
         uses: actions/download-artifact@v3
 
       - name: List Files
