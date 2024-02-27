@@ -53,7 +53,7 @@ jobs:
       - name: Build with Next.js
         run: next build
       - name: detect output folder
-        uses: ls -la out
+        run: ls -la out
       
       - name: Upload artifact
         uses: actions/upload-artifact@v3
