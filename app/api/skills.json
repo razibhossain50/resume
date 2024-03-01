@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name":"Javascript",
+        "imgUrl": "/icons/javascript.svg",
+        "imgAlt":"Javascript"
+    },
+    {
+        "id": 2,
+        "name":"React",
+        "imgUrl": "/icons/reactjs.svg",
+        "imgAlt":"React"
+    },
+    {
+        "id": 3,
+        "name":"Next",
+        "imgUrl": "/icons/nextjs.svg",
+        "imgAlt":"Next"
+    },
+    {
+        "id": 4,
+        "name":"Vue",
+        "imgUrl": "/icons/vuejs.svg",
+        "imgAlt":"Vue"
+    },
+    {
+        "id": 5,
+        "name":"Angular",
+        "imgUrl": "/icons/angularjs.svg",
+        "imgAlt":"Angular"
+    },
+    {
+        "id": 6,
+        "name":"PHP",
+        "imgUrl": "/icons/php.svg",
+        "imgAlt":"PHP"
+    },
+    {
+        "id": 7,
+        "name":"HTML",
+        "imgUrl": "/icons/html.svg",
+        "imgAlt":"HTML"
+    },
+    {
+        "id": 6,
+        "name":"jQuery",
+        "imgUrl": "/icons/jquery.svg",
+        "imgAlt":"jQuery"
+    },
+    {
+        "id": 9,
+        "name":"Wordpress",
+        "imgUrl": "/icons/wordpress.svg",
+        "imgAlt":"Wordpress"
+    },
+    {
+        "id": 10,
+        "name":"AEM",
+        "imgUrl": "/icons/aem.svg",
+        "imgAlt":"AEM"
+    },
+    {
+        "id": 11,
+        "name":"SCSS",
+        "imgUrl": "/icons/scss.svg",
+        "imgAlt":"SCSS"
+    },
+    {
+        "id": 12,
+        "name":"Git",
+        "imgUrl": "/icons/git.svg",
+        "imgAlt":"Git"
+    },
+    {
+        "id": 13,
+        "name":"Material design",
+        "imgUrl": "/icons/material-design.svg",
+        "imgAlt":"Material design"
+    },
+    {
+        "id": 14,
+        "name":"Storybook",
+        "imgUrl": "/icons/storybook.svg",
+        "imgAlt":"Storybook"
+    },
+    {
+        "id": 15,
+        "name":"Figma",
+        "imgUrl": "/icons/figma.svg",
+        "imgAlt":"Figma"
+    },
+    {
+        "id": 16,
+        "name":"Redux",
+        "imgUrl": "/icons/redux.svg",
+        "imgAlt":"Redux"
+    }
+]

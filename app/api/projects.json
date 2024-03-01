@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "HBK - Empower the Innovators",
+        "desc": "Web Application [Health Tech]",
+        "url": "https://www.hbkworld.com/en",
+        "imgUrl": "/images/project1.png",
+        "imgAlt": "hbk"
+    },
+    {
+        "id": 2,
+        "title": "Clinical Trails - organize clinical trials in various therapeutic areas",
+        "desc": " Web Application [Health Tech]",
+        "url": "https://www.clinicaltrials-glpg.com/",
+        "imgUrl": "/images/project2.png",
+        "imgAlt": "Clinical Trails"
+    },
+    {
+        "id": 3,
+        "title": "Rosea - Ecommerce Solution",
+        "desc": "Ecommerce Application",
+        "url": "https://rosea.nop-station.com/",
+        "imgUrl": "/images/project4.png",
+        "imgAlt": "Rosea"
+    },
+    {
+        "id": 4,
+        "title": "Flexi - Your personal portfolio",
+        "desc": "Personal Web Application",
+        "url": "https://razibmahmud50.github.io/flexi/",
+        "imgUrl": "/images/project3.png",
+        "imgAlt": "Flexi"
+
+    }
+]

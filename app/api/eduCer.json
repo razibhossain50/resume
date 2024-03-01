@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "year": "2013 - 2017",
+        "subject": "BSc in Computer Science and Engineering",
+        "institue": "Daffodil Institute of IT ",
+        "type":"edu"
+    },
+    {
+        "id": 2,
+        "year": "2023",
+        "subject": "Programming With Javascript",
+        "institue": "Meta",
+        "type":"cer"
+    },
+    {
+        "id": 3,
+        "year": "2021",
+        "subject": "NopCommerce Certificate Developer",
+        "institue": "Nop Commerce",
+        "type":"cer"
+    },
+    {
+        "id": 4,
+        "year": "2017",
+        "subject": "Web Development with PHP",
+        "institue": "BITM",
+        "type":"cer"
+    }
+]

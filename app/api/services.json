@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name":"UI UX Design",
+        "imgUrl": "/icons/ux.svg",
+        "imgAlt":"UI UX Design"
+    },
+    {
+        "id": 2,
+        "name":"Web Development",
+        "imgUrl": "/icons/web-development.svg",
+        "imgAlt":"Web Development"
+    },
+    {
+        "id": 3,
+        "name":"Mobile App",
+        "imgUrl": "/icons/mobile-app.svg",
+        "imgAlt":"Mobile App"
+    },
+    {
+        "id": 4,
+        "name":"Product Design",
+        "imgUrl": "/icons/product-design.svg",
+        "imgAlt":"Product Design"
+    },
+    {
+        "id": 5,
+        "name":"Branding",
+        "imgUrl": "/icons/branding.svg",
+        "imgAlt":"Branding"
+    },
+    {
+        "id": 6,
+        "name":"Photography",
+        "imgUrl": "/icons/photography.svg",
+        "imgAlt":"Photography"
+    },
+    {
+        "id": 7,
+        "name":"Motion Design",
+        "imgUrl": "/icons/motion-design.svg",
+        "imgAlt":"Motion Design"
+    },
+    {
+        "id": 8,
+        "name":"Visualization",
+        "imgUrl": "/icons/visualization.svg",
+        "imgAlt":"Visualization"
+    }
+]

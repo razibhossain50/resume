@@ -1,5 +1,6 @@
 
 "use client";
+import projects from "../../api/projects"
 export default function Portfolio () {
   return (
     <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
@@ -14,13 +15,14 @@ export default function Portfolio () {
                 </div>
                 <div className="mt-10 lg:mt-14">
                     <div className="mt-6 grid md:grid-cols-2 gap-4">
-                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
+                        {projects.map((project)=>(
+                        <div key={project.id} className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="/images/project1.png" alt="hbk" className="h-full w-full rounded-t-lg object-cover object-top transition" />
+                                    <img src={project.imgUrl} alt={project.imgAlt} className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
-                                    <a href="https://www.hbkworld.com/en" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="/icons/external-link.svg" alt="hbk" />
+                                    <a href={project.url} target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
+                                        <img src="/icons/external-link.svg" alt="Link" />
                                     </a>
                                 </div>
                             </div>
@@ -28,7 +30,7 @@ export default function Portfolio () {
                             <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
                                 <div className="">
                                     <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
-                                        <a href="https://www.hbkworld.com/en" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
+                                        <a href={project.url} target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
                                             HBK - Empower the Innovators
                                         </a>
                                     </h3>
@@ -37,7 +39,7 @@ export default function Portfolio () {
                                     </p>
                                 </div>
 
-                                <a href="https://www.hbkworld.com/en" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
+                                <a href={project.url} target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
                                     <span>Visit Site</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
                                         <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
@@ -45,99 +47,8 @@ export default function Portfolio () {
                                 </a>
                             </div>
                         </div>
-                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
-                            <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
-                                <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="/images/project2.png" alt="Clinical trails" className="h-full w-full rounded-t-lg object-cover object-top transition" />
 
-                                    <a href="https://www.clinicaltrials-glpg.com/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="/icons/external-link.svg" alt="hbk" />
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
-                                <div className="">
-                                    <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
-                                        <a href="https://www.clinicaltrials-glpg.com/" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
-                                            Clinical Trails - organize clinical trials in various therapeutic areas
-                                        </a>
-                                    </h3>
-                                    <p className="text-sm text-muted lg:text-base">
-                                      Web Application [Health Tech]
-                                    </p>
-                                </div>
-
-                                <a href="https://www.clinicaltrials-glpg.com/" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
-                                    <span>Visit Site</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
-                                        <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
-                            <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
-                                <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="/images/project4.png" alt="rosea" className="h-full w-full rounded-t-lg object-cover object-top transition" />
-
-                                    <a href="https://rosea.nop-station.com/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="/icons/external-link.svg" alt="rosea" />
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
-                                <div className="">
-                                    <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
-                                        <a href="https://rosea.nop-station.com/" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
-                                            Rosea - Ecommerce Solution
-                                        </a>
-                                    </h3>
-                                    <p className="text-sm text-muted lg:text-base">
-                                      Ecommerce Application
-                                    </p>
-                                </div>
-
-                                <a href="https://rosea.nop-station.com/" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
-                                    <span>Visit Site</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
-                                        <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                        <div className="border border-primary-dark dark:border-primary-light rounded-lg">
-                            <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
-                                <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
-                                    <img src="/images/project3.png" alt="Flexi" className="h-full w-full rounded-t-lg object-cover object-top transition" />
-
-                                    <a href="https://razibmahmud50.github.io/flexi/" target="__blank" data-gall="project-gallry-1" className="project-gallery-link absolute left-1/2 top-1/2 grid h-10 w-10 -translate-x-1/2 -translate-y-1/2 place-content-center rounded-full bg-white text-primary shadow-lg transition lg:invisible lg:-translate-y-[40%] lg:opacity-0 lg:group-hover:visible lg:group-hover:-translate-y-1/2 lg:group-hover:opacity-100">
-                                        <img src="/icons/external-link.svg" alt="Flexi" />
-                                    </a>
-                                </div>
-                            </div>
-
-                            <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
-                                <div className="">
-                                    <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
-                                        <a href="https://razibmahmud50.github.io/flexi/" target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
-                                            Flexi - Your personal portfolio
-                                        </a>
-                                    </h3>
-                                    <p className="text-sm text-muted lg:text-base">
-                                      Personal Web Application
-                                    </p>
-                                </div>
-
-                                <a href="https://razibmahmud50.github.io/flexi/" target="__blank" className="inline-flex items-center justify-center gap-1 rounded bg-white px-3 py-2 pl-0 text-center text-sm leading-none text-dark transition hover:text-primary dark:bg-black dark:text-light/70 dark:hover:text-primary">
-                                    <span>Visit Site</span>
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 15" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" className="h-4 w-4 shrink-0">
-                                        <path d="m9.917 4.583-5.834 5.834m.584-5.834h5.25v5.25" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                     {/* <nav className="mt-10 flex items-center justify-center gap-1.5">
                         <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
