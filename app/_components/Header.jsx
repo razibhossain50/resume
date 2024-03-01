@@ -227,7 +227,7 @@ export default function Header() {
 
                     <ul className="mt-4 flex flex-1 flex-col gap-2">
                         <li className={`${pathName == "/" ? "active" : ""} group/menu-item`}>
-                            <Link
+                            <a
                                 href="/"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
@@ -244,7 +244,7 @@ export default function Header() {
                                     <path d="M13.333 12.5c-1.841 1.11-4.826 1.11-6.667 0" />
                                 </svg>
                                 <span>Home</span>
-                            </Link>
+                            </a>
                         </li>
                         <li className={`${pathName == "/about" ? "active" : ""} group/menu-item`}>
                             <a

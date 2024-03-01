@@ -1,4 +1,6 @@
 "use client";
+import eduCer from "../../api/eduCer.json"
+import skills from "../../api/skills.json"
 export default function About() {
   return (
     <>
@@ -32,62 +34,28 @@ export default function About() {
           </h3>
 
           <div className="mt-8 grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
-            <div className="group relative rounded-lg border border-transparent bg-light p-4 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
+            {eduCer.map((item)=>(
+            <div key={item.id} className="group relative rounded-lg border border-transparent bg-light p-4 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
               <div className="flex flex-row gap-4 md:col-span-2 items-center">
                 <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
-                  <img src="/icons/education.svg" alt="education" className="h-6 w-6 shrink-0" />
-                </div>
-                <div className="">
-                <p className="text-muted">2013 - 2017</p>
-                  <h5 className="font-medium leading-normal text-dark dark:text-light xl:text-md">
-                    BSc in Computer Science and Engineering
-                  </h5>
-                  <p className="text-muted">Daffodil Institute of IT</p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative rounded-lg border border-transparent bg-light p-4 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
-              <div className="flex flex-row gap-4 md:col-span-2 items-center">
-                <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
+                 {item.type=="edu"?(
+                   <img src="/icons/education.svg" alt="education" className="h-6 w-6 shrink-0" />
+                 ):(
                   <img src="/icons/certificate.svg" alt="certificate" className="h-6 w-6 shrink-0" />
+                 )
+                 }
                 </div>
                 <div className="">
-                <p className="text-muted">2023</p>
+                <p className="text-muted">{item.year}</p>
                   <h5 className="font-medium leading-normal text-dark dark:text-light xl:text-md">
-                  Programming With Javascript
+                    {item.subject}
                   </h5>
-                  <p className="text-muted">Meta</p>
+                  <p className="text-muted">{item.institue}</p>
                 </div>
               </div>
             </div>
-            <div className="group relative rounded-lg border border-transparent bg-light p-4 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
-              <div className="flex flex-row gap-4 md:col-span-2 items-center">
-                <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
-                <img src="/icons/certificate.svg" alt="certificate" className="h-6 w-6 shrink-0" />
-                </div>
-                <div className="">
-                <p className="text-muted">2021</p>
-                  <h5 className="font-medium leading-normal text-dark dark:text-light xl:text-md">
-                  NopCommerce Certificate Developer
-                  </h5>
-                  <p className="text-muted">Nop Commerce</p>
-                </div>
-              </div>
-            </div>
-            <div className="group relative rounded-lg border border-transparent bg-light p-4 transition hover:border-light hover:bg-white dark:bg-dark-2 dark:hover:border-primary dark:hover:bg-black md:grid-cols-4 xl:gap-10">
-              <div className="flex flex-row gap-4 md:col-span-2 items-center">
-                <div className="grid h-10 w-10 shrink-0 place-content-center rounded-lg bg-white transition group-hover:bg-light dark:bg-black dark:group-hover:bg-dark-2">
-                <img src="/icons/certificate.svg" alt="certificate" className="h-6 w-6 shrink-0" />
-                </div>
-                <div className="">
-                <p className="text-muted">2017</p>
-                  <h5 className="font-medium leading-normal text-dark dark:text-light xl:text-md">
-                  Web Development with PHP 
-                  </h5>
-                  <p className="text-muted">BITM</p>
-                </div>
-              </div>
-            </div>
+
+            ))}
           </div>
         </div>
         <div className="mt-10 lg:mt-14">
@@ -95,54 +63,12 @@ export default function About() {
                      Skills ✨
                 </h3>
                 <div className="mt-8 grid grid-cols-[repeat(auto-fit,_minmax(60px,1fr))] gap-2 lg:grid-cols-[repeat(auto-fit,_minmax(80px,1fr))] lg:gap-4">
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/javascript.svg" alt="javascript" className="h-8 w-8 lg:h-10 lg:w-10" />
+                  {skills.map((skill)=>(
+                    <div key={skill.id} className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
+                        <img src={skill.imgUrl} alt={skill.imgAlt} className="h-8 w-8 lg:h-10 lg:w-10" />
                     </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/reactjs.svg" alt="react" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/nextjs.svg" alt="next" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/vuejs.svg" alt="vue" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/angularjs.svg" alt="angular" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/jquery.svg" alt="jquery" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/html.svg" alt="html5" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/php.svg" alt="PHP" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/wordpress.svg" alt="wordpress" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/aem.svg" alt="AEM" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/scss.svg" alt="scss" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/git.svg" alt="git" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/material-design.svg" alt="material design" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/storybook.svg" alt="storybook" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/figma.svg" alt="Figma" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
-                    <div className="grid h-16 place-content-center rounded-lg bg-light p-3 dark:bg-dark-2 lg:h-20 lg:rounded-2xl lg:p-4">
-                        <img src="/icons/redux.svg" alt="redux" className="h-8 w-8 lg:h-10 lg:w-10" />
-                    </div>
+
+                  ))}
                 </div>
             </div>
         <div className="mt-10 lg:mt-14">
