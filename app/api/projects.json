@@ -17,19 +17,67 @@
     },
     {
         "id": 3,
-        "title": "Rosea - Ecommerce Solution",
-        "desc": "Ecommerce Application",
-        "url": "https://rosea.nop-station.com/",
-        "imgUrl": "/images/project4.png",
-        "imgAlt": "Rosea"
+        "title": "Crimson - E-commerce",
+        "desc": "nopCommerce platform",
+        "url": "https://crimson.nop-station.com/",
+        "imgUrl": "/images/project10.png",
+        "imgAlt": "crimson"
     },
     {
         "id": 4,
+        "title": "Pondit - Your virtual mentor",
+        "desc": "Web Application [Virtual School]",
+        "url": "https://www.pondit.com/",
+        "imgUrl": "/images/project6.png",
+        "imgAlt": "pondit"
+    },
+    {
+        "id": 5,
         "title": "Flexi - Your personal portfolio",
         "desc": "Personal Web Application",
         "url": "https://razibmahmud50.github.io/flexi/",
         "imgUrl": "/images/project3.png",
         "imgAlt": "Flexi"
-
+    },
+    {
+        "id": 6,
+        "title": "Galapagos Health - Online portal for doctors & health care professionals",
+        "desc": "Web Application [Health Tech]",
+        "url": "https://www.galapagoshealth.com/",
+        "imgUrl": "/images/project5.png",
+        "imgAlt": "Galapagos Health"
+    },
+    {
+        "id": 7,
+        "title": "Timeline Missions - is a full service, creative led, production house",
+        "desc": "Wordpress [Corporate]",
+        "url": "https://timelinemissions.com/",
+        "imgUrl": "/images/project8.png",
+        "imgAlt": "Timeline Missions"
+    },
+    {
+        "id": 8,
+        "title": "Vivadesignstudio - is a design house",
+        "desc": "Wordpress [Corporate]",
+        "url": "https://vivadesignstudio.com/",
+        "imgUrl": "/images/project7.png",
+        "imgAlt": "vivadesignstudio"
+    },
+    {
+        "id": 9,
+        "title": "Softorbits - photo video converter",
+        "desc": "Wordpress",
+        "url": "https://www.softorbits.net/",
+        "imgUrl": "/images/project9.png",
+        "imgAlt": "softorbits"
+    },
+    {
+        "id": 10,
+        "title": "Rosea - Ecommerce Solution",
+        "desc": "Ecommerce Application",
+        "url": "https://rosea.nop-station.com/",
+        "imgUrl": "/images/project4.png",
+        "imgAlt": "Rosea"
     }
+   
 ]

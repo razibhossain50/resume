@@ -1,7 +1,19 @@
 
 "use client";
+import { useState } from "react"
+import Pagination from "../../_components/Pagination"
 import projects from "../../api/projects"
+
 export default function Portfolio () {
+    const data = projects;
+    const [currentPage, setCurrentPage] = useState(1);
+    const [recordsPerPage] = useState(4);
+
+    const indexOfLastRecord = currentPage * recordsPerPage;
+    const indexOfFirstRecord = indexOfLastRecord - recordsPerPage;
+    const currentRecords = data.slice(indexOfFirstRecord, indexOfLastRecord);
+    const nPages = Math.ceil(data.length / recordsPerPage)
+
   return (
     <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
                 <div className="">
@@ -15,7 +27,7 @@ export default function Portfolio () {
                 </div>
                 <div className="mt-10 lg:mt-14">
                     <div className="mt-6 grid md:grid-cols-2 gap-4">
-                        {projects.map((project)=>(
+                        {currentRecords.map((project)=>(
                         <div key={project.id} className="border border-primary-dark dark:border-primary-light rounded-lg">
                             <div className="group relative overflow-hidden rounded-lg bg-light p-4 pb-0 dark:bg-dark-2 md:p-6 md:pb-0 xl:p-10 xl:pb-0">
                                 <div className="relative aspect-6/4 overflow-hidden rounded-t-lg">
@@ -31,11 +43,11 @@ export default function Portfolio () {
                                 <div className="">
                                     <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
                                         <a href={project.url} target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
-                                            HBK - Empower the Innovators
+                                           {project.title}
                                         </a>
                                     </h3>
                                     <p className="text-sm text-muted lg:text-base">
-                                      Web Application [Health Tech]
+                                      {project.desc}
                                     </p>
                                 </div>
 
@@ -50,48 +62,11 @@ export default function Portfolio () {
 
                         ))}
                     </div>
-                    {/* <nav className="mt-10 flex items-center justify-center gap-1.5">
-                        <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="h-4 w-4">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
-                            </svg>
-
-                            <span aria-hidden="true" className="sr-only">Previous</span>
-                        </button>
-                        <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary" aria-current="page">
-                            1
-                        </button>
-                        <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
-                            2
-                        </button>
-                        <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
-                            3
-                        </button>
-                        <div className="hs-tooltip inline-block">
-                            <button type="button" className="hs-tooltip-toggle group inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
-                                <span className="text-xs group-hover:hidden">•••</span>
-                                <svg className="hidden h-5 w-5 flex-shrink-0 group-hover:block" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                                    <path d="m6 17 5-5-5-5" />
-                                    <path d="m13 17 5-5-5-5" />
-                                </svg>
-                                <span
-										className="hs-tooltip-content invisible absolute z-10 inline-block rounded bg-gray-900 px-2 py-1 text-xs font-medium text-white opacity-0 shadow-sm transition-opacity hs-tooltip-shown:visible hs-tooltip-shown:opacity-100 dark:bg-slate-700"
-										role="tooltip">
-										Next 4 pages
-									</span>
-                            </button>
-                        </div>
-                        <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
-                            100
-                        </button>
-                        <button type="button" className="inline-flex min-h-9 min-w-9 items-center justify-center rounded-lg border border-light text-center text-dark transition hover:border-primary hover:text-primary focus:outline-none focus:ring-2 disabled:pointer-events-none disabled:opacity-50 dark:border-dark dark:text-muted dark:hover:border-primary dark:hover:text-primary">
-                            <span aria-hidden="true" className="sr-only">Next</span>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" className="h-4 w-4">
-                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                            </svg>
-                        </button>
-                    </nav> */}
+                    <Pagination
+                    nPages={nPages}
+                    currentPage={currentPage}
+                    setCurrentPage={setCurrentPage}
+                />
                 </div>
                 <div className="mt-10 lg:mt-14">
                     <div className="group flex gap-6 overflow-hidden rounded-lg bg-light p-6 dark:bg-dark-2">
