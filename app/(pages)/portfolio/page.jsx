@@ -39,7 +39,7 @@ export default function Portfolio () {
                                 </div>
                             </div>
 
-                            <div className="flex flex-wrap items-start justify-between py-4 md:p-6">
+                            <div className="flex flex-wrap items-start justify-between p-4 md:p-6">
                                 <div className="">
                                     <h3 className="text-lg font-medium md:text-xl lg:text-2xl">
                                         <a href={project.url} target="__blank" className="border-b border-transparent text-dark transition hover:border-b-primary hover:text-primary dark:text-light/80 dark:hover:text-primary">
