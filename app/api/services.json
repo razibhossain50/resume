@@ -7,44 +7,44 @@
     },
     {
         "id": 2,
+        "name":"Web Design",
+        "imgUrl": "/icons/web-design.svg",
+        "imgAlt":"Web Design"
+    },
+    {
+        "id": 3,
         "name":"Web Development",
         "imgUrl": "/icons/web-development.svg",
         "imgAlt":"Web Development"
     },
     {
-        "id": 3,
-        "name":"Mobile App",
-        "imgUrl": "/icons/mobile-app.svg",
-        "imgAlt":"Mobile App"
-    },
-    {
         "id": 4,
-        "name":"Product Design",
-        "imgUrl": "/icons/product-design.svg",
-        "imgAlt":"Product Design"
+        "name":"AEM Development",
+        "imgUrl": "/icons/aem-outline.svg",
+        "imgAlt":"AEM Development"
     },
     {
         "id": 5,
-        "name":"Branding",
-        "imgUrl": "/icons/branding.svg",
-        "imgAlt":"Branding"
+        "name":"Wordpress Development",
+        "imgUrl": "/icons/wordpress.svg",
+        "imgAlt":"Wordpress"
     },
     {
         "id": 6,
-        "name":"Photography",
-        "imgUrl": "/icons/photography.svg",
-        "imgAlt":"Photography"
+        "name":"Webflow Development",
+        "imgUrl": "/icons/webflow-outline.svg",
+        "imgAlt":"Webflow"
     },
     {
         "id": 7,
-        "name":"Motion Design",
-        "imgUrl": "/icons/motion-design.svg",
-        "imgAlt":"Motion Design"
+        "name":"Shopify Development",
+        "imgUrl": "/icons/shopify.svg",
+        "imgAlt":"Shopify Development"
     },
     {
         "id": 8,
-        "name":"Visualization",
-        "imgUrl": "/icons/visualization.svg",
-        "imgAlt":"Visualization"
+        "name":"Photography",
+        "imgUrl": "/icons/photography.svg",
+        "imgAlt":"Photography"
     }
 ]
