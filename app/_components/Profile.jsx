@@ -4,7 +4,7 @@ import CopyToClipboardButton from './CopyToClipboardButton';
 export default function Profile() {
   const textToCopy = 'razibmahmud50@gmail.com';
   return (
-    <div>
+    <div className='cmp-profile'>
       <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:sticky lg:top-24">
         <div
           className="aspect-6/4 overflow-hidden rounded-lg bg-light pt-4 text-center dark:bg-dark-2">
