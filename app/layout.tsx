@@ -1,23 +1,24 @@
+"use client"
 import PrelineScript from "./_components/PrelineScript";
-import Script from "next/script";
 import Header from "./_components/Header";
 import Footer from "./_components/Footer";
 import Profile from "./_components/Profile";
+import { usePathname } from 'next/navigation';
 import "./styles/swiper-bundle.min.css";
 import "./globals.css";
 
-export const metadata = {
-	title: "Razib Hossain",
-	description: "Pesonal portfolio website",
-};
-
 export default function RootLayout({ children }) {
+	const pathName = usePathname();
 	return (
 		<html lang="en">
+			<head>
+				<title>Razib Hossain</title>
+				<meta name='description' content='Pesonal portfolio' />
+			</head>
 			<body className={`relative h-screen overflow-y-auto overflow-x-hidden bg-light text-dark dark:bg-dark-2 dark:text-light `}>
 				<div className="mx-auto flex max-w-screen-2xl flex-col justify-between gap-4 p-4 lg:gap-6 lg:p-6">
 					<Header />
-					<main className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6">
+					<main className={`${pathName == "/" && "page-home"} grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-6`}>
 						<Profile />
 						{children}
 					</main>
