@@ -7,30 +7,24 @@
     },
     {
         "id": 2,
-        "year": "2021 - 2022",
+        "year": "2019 - 2022",
         "company": "Brain Station 23",
         "designation": "Associate Frontend Engineer"
     },
     {
         "id": 3,
-        "year": "2019 - 2020",
-        "company": "Brain Station 23",
-        "designation": "Junior Frontend Engineer"
-    },
-    {
-        "id": 4,
         "year": "2018 - 2019",
         "company": "Pondit",
         "designation": "Frontend Engineer"
     },
     {
-        "id": 5,
+        "id": 4,
         "year": "2017 - 2018",
         "company": "Themeforest",
         "designation": "Theme Developer"
     },
     {
-        "id": 6,
+        "id": 5,
         "year": "2016 - 2017",
         "company": "Fiver",
         "designation": "Web Developer"

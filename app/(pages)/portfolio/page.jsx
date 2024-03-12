@@ -21,8 +21,7 @@ export default function Portfolio () {
                         All <span className="text-primary">Projects</span>
                     </h2>
                     <p className="mt-4 text-lg text-muted dark:text-light/70 lg:mt-6 lg:text-2xl">
-                        Transforming Ideas into Innovative Reality, Empower Your Vision with
-                        Our Expert <span className="font-semibold text-dark dark:text-white">Software Development</span>  Services!
+                    Empower Your  <span className="font-semibold text-dark dark:text-white">Vision</span> with Our Expert  <span className="font-semibold text-dark dark:text-white">Software Development</span> Services and Bring Your Ideas to Life with Innovative Solutions!
                     </p>
                 </div>
                 <div className="mt-10 lg:mt-14">
