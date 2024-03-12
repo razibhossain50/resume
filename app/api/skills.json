@@ -25,9 +25,9 @@
     },
     {
         "id": 5,
-        "name":"Angular",
-        "imgUrl": "/icons/angularjs.svg",
-        "imgAlt":"Angular"
+        "name":"Node",
+        "imgUrl": "/icons/nodejs.svg",
+        "imgAlt":"Node"
     },
     {
         "id": 6,
