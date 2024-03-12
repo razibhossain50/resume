@@ -8,7 +8,7 @@ export default function Services() {
             <div className="flex flex-col-reverse items-start gap-6 lg:flex-row lg:gap-10">
                 <div className="">
                     <h2 className="text-3xl font-semibold text-dark dark:text-light lg:text-[40px]">
-                        Services I <span className="text-primary">Offered</span>
+                        Services I <span className="text-primary">Offer</span>
                     </h2>
                     <p className="mt-4 text-lg text-muted dark:text-light/70 lg:mt-6 lg:text-2xl">
                         Transforming Ideas into Innovative Reality, Empower Your Vision with

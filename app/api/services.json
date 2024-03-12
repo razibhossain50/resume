@@ -1,50 +1,38 @@
 [
     {
         "id": 1,
-        "name":"UI UX Design",
-        "imgUrl": "/icons/ux.svg",
-        "imgAlt":"UI UX Design"
-    },
-    {
-        "id": 2,
         "name":"Web Design",
         "imgUrl": "/icons/web-design.svg",
         "imgAlt":"Web Design"
     },
     {
-        "id": 3,
+        "id": 2,
         "name":"Web Development",
         "imgUrl": "/icons/web-development.svg",
         "imgAlt":"Web Development"
     },
     {
-        "id": 4,
+        "id": 3,
         "name":"AEM Development",
         "imgUrl": "/icons/aem-outline.svg",
         "imgAlt":"AEM Development"
     },
     {
-        "id": 5,
+        "id": 4,
         "name":"Wordpress Development",
         "imgUrl": "/icons/wordpress.svg",
         "imgAlt":"Wordpress"
     },
     {
-        "id": 6,
+        "id": 5,
         "name":"Webflow Development",
         "imgUrl": "/icons/webflow-outline.svg",
         "imgAlt":"Webflow"
     },
     {
-        "id": 7,
+        "id": 6,
         "name":"Shopify Development",
         "imgUrl": "/icons/shopify.svg",
         "imgAlt":"Shopify Development"
-    },
-    {
-        "id": 8,
-        "name":"Photography",
-        "imgUrl": "/icons/photography.svg",
-        "imgAlt":"Photography"
     }
 ]
