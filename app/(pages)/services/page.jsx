@@ -11,8 +11,7 @@ export default function Services() {
                         Services I <span className="text-primary">Offer</span>
                     </h2>
                     <p className="mt-4 text-lg text-muted dark:text-light/70 lg:mt-6 lg:text-2xl">
-                        Transforming Ideas into Innovative Reality, Empower Your Vision with
-                        Our Expert <span className="font-semibold text-dark dark:text-white">Software Development</span>  Services!
+                    Empower Your  <span className="font-semibold text-dark dark:text-white">Vision</span> with Our Expert  <span className="font-semibold text-dark dark:text-white">Software Development</span> Services and Bring Your Ideas to Life with Innovative Solutions!
                     </p>
                 </div>
                 <div className="flex items-center justify-center gap-2 whitespace-nowrap rounded-lg bg-light px-4 py-2 text-center text-base font-medium leading-none text-primary dark:bg-dark-2 lg:text-lg">
