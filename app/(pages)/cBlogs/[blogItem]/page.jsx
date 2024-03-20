@@ -10,6 +10,7 @@ export async function generateStaticParams() {
 
 export default function blogItem({params}){
     let blogItem = blogs.find(blog => blog.id === Number(params.blogItem));
+    console.log(JSON.stringify(blogItem, null, 10));
     return(
         <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
                 <figure className="aspect-video overflow-hidden rounded-lg">
