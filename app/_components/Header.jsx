@@ -180,7 +180,7 @@ export default function Header() {
                             </div>
 
                             <a
-                                href="Razib_Frontend_resume.pdf"
+                                href="Razib_hossain_resume_v3.pdf"
                                 download="Razib_hossain_resume"
                                 target='__blank'
                                 className="inline-flex items-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white leading-4">
@@ -382,7 +382,7 @@ export default function Header() {
                         <a
                             target='__blank'
                             download="Razib_hossain_resume"
-                            href="Razib_Frontend_resume.pdf"
+                            href="Razib_hossain_resume_v3.pdf"
                             className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-dark px-6 py-4 text-center text-base font-semibold leading-tight text-white transition hover:bg-primary dark:bg-dark-2 dark:text-white dark:hover:bg-primary dark:hover:text-white">
                             <span>Download Resume</span>
                         </a>
