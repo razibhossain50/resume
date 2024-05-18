@@ -16,9 +16,9 @@ export default function Profile() {
         </div>
 
         <div className="mt-6">
-          <h3 className="text-2xl font-semibold dark:text-light">Hey there! 👋</h3>
+          <h3 className="text-2xl font-semibold dark:text-light">Hello there! 👋</h3>
           <p className="mt-2 text-muted dark:text-light/70">
-            I&apos;m a <span className="font-semibold text-dark dark:text-white">software whiz </span> who loves turning <span className="font-semibold text-dark dark:text-white">tricky</span> problems into cool, smooth-running programs. Let&apos;s <span className="font-semibold text-dark dark:text-white">team up</span> and create some awesome tech magic.
+            I&apos;m a <span className="font-semibold text-dark dark:text-white">software Developer </span> who loves turning <span className="font-semibold text-dark dark:text-white">tricky</span> problems into cool, smooth-running programs. Let&apos;s <span className="font-semibold text-dark dark:text-white">team up</span> and create some awesome tech magic.
 
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
@@ -26,7 +26,7 @@ export default function Profile() {
           </div>
           <div className="mt-8 flex flex-wrap items-center gap-2 justify-center">
             <a
-              href="https://www.linkedin.com/in/razibmahmud50/"
+              href="https://www.linkedin.com/in/razibhossain50/"
               target="_blank"
               className="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-primary">
               <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50" fill="currentColor">
@@ -34,7 +34,7 @@ export default function Profile() {
               </svg>
             </a>
             <a
-              href="https://github.com/razibmahmud50"
+              href="https://github.com/razibhossain50"
               target='_blank'
               className="flex h-10 w-10 items-center justify-center rounded-lg border border-slate-200 bg-transparent text-center text-slate-600 transition hover:text-primary focus:outline-none focus:ring disabled:pointer-events-none disabled:opacity-50 dark:border-transparent dark:bg-dark-2 dark:text-slate-500 dark:hover:text-primary">
               <svg

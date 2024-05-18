@@ -35,7 +35,7 @@
         "id": 5,
         "title": "Flexi - Your personal portfolio",
         "desc": "Personal Web Application",
-        "url": "https://razibmahmud50.github.io/flexi/",
+        "url": "https://razibhossain50.github.io/flexi/",
         "imgUrl": "/images/projects/project3.png",
         "imgAlt": "Flexi"
     },
@@ -70,6 +70,14 @@
         "url": "https://rosea.nop-station.com/",
         "imgUrl": "/images/projects/project4.png",
         "imgAlt": "Rosea"
+    },
+    {
+        "id": 11,
+        "title": "Elegant - Personal Portfolio",
+        "desc": "Personal portfolio Application",
+        "url": "https://razibhossain50.github.io/elegantTheme/",
+        "imgUrl": "/images/projects/project11.png",
+        "imgAlt": "Elegant"
     }
    
 ]
