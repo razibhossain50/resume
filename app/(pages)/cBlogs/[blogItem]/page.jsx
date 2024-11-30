@@ -1,4 +1,4 @@
-import { getBlogPosts } from "../../../../api/api"
+import { getBlogPosts } from "../../../../api/api";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 
 const blogs = await getBlogPosts();
@@ -30,14 +30,14 @@ export default function blogItem({params}){
 
                         <div className="flex flex-wrap gap-2">
                             <span className="inline-flex items-center justify-center gap-2 rounded border border-light bg-white px-2 py-1 text-center text-xs font-medium leading-none text-dark transition hover:bg-primary hover:text-white dark:border-dark dark:bg-dark-2 dark:text-light/70 dark:hover:bg-primary dark:hover:text-white">
-                                {blogItem.type}
+                                {blogItem.type??"unknown"}
                             </span>
                         </div>
                         <h6 className="text-lg font-medium text-dark dark:text-light">Date:</h6>
 
                         <div className="flex flex-wrap gap-2">
                             <span className="inline-flex items-center justify-center gap-2 rounded border border-light bg-white px-2 py-1 text-center text-xs font-medium leading-none text-dark transition hover:bg-primary hover:text-white dark:border-dark dark:bg-dark-2 dark:text-light/70 dark:hover:bg-primary dark:hover:text-white">
-                                {blogItem.date}
+                                {blogItem.date??"unknown"}
                             </span>
                         </div>
                     </div>
