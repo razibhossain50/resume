@@ -33,9 +33,9 @@ export default function Blogs() {
         <h2 className="text-3xl font-semibold leading-tight text-dark dark:text-light lg:text-[40px] lg:leading-tight">
           My Recent Article
         </h2>
-        <p className="mt-4 text-lg text-muted dark:text-light/70">
+        {/* <p className="mt-4 text-lg text-muted dark:text-light/70">
           To die before you die, if you are assuming that living is about the attachment of everything physically then dying is detachment of everything physically.
-        </p>
+        </p> */}
       </div>
       <div className="mt-10 lg:mt-14">
         <div className="grid grid-cols-1 gap-x-6 gap-y-10 md:grid-cols-2">

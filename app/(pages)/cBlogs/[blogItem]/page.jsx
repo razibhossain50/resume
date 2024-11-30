@@ -13,11 +13,11 @@ export default function blogItem({params}){
     let blogItem = blogs.find(blog => blog.id === Number(params.blogItem));
     // console.log(JSON.stringify(blogItem, null, 10));
     return(
-        <div className="rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
+        <div className="blog-item rounded-2xl bg-white p-6 shadow dark:bg-black dark:shadow-dark lg:col-span-2 lg:p-10">
                 <figure className="aspect-video overflow-hidden rounded-lg">
                     <img src={blogItem.image.fields.file.url} alt="blog" className="h-full w-full object-cover" />
                 </figure>
-                <article className="prose mt-6 dark:prose-invert xl:prose-lg prose-headings:font-medium prose-blockquote:border-primary lg:mt-10">
+                <article className="blog-desc prose mt-6 dark:prose-invert xl:prose-lg prose-headings:font-medium prose-blockquote:border-primary lg:mt-10">
                     <h2 className="text-xl font-medium xl:text-3xl text-dark transition dark:text-light/70 mb-8">{blogItem.title}</h2>
                     <p className="text-lg text-dark transition dark:text-light/70">
                       {documentToReactComponents(blogItem.description)}

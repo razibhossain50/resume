@@ -117,8 +117,8 @@ export default function Header() {
                                 </Link>
 
                             </li>
-                            {/* <li className={`${pathName == "/blogs" ? "active" : ""} group/menu-item`}>
-                                <Link href="/blogs" className='group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white'>
+                            <li className={`${pathName == "/cBlogs" ? "active" : ""} group/menu-item`}>
+                                <Link href="/cBlogs" className='group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white'>
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 20 20"
@@ -134,7 +134,7 @@ export default function Header() {
                                     <span>Blogs</span>
                                 </Link>
 
-                            </li> */}
+                            </li>
                             <li  className={`${pathName == "/contact" ? "active" : ""} group/menu-item`}>
                                 <Link href="/contact" className='group inline-flex items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white'>
                                     <svg
@@ -306,9 +306,9 @@ export default function Header() {
                                 <span>Works</span>
                             </a>
                         </li>
-                        {/* <li className={`${pathName == "/blogs" ? "active" : ""} group/menu-item`}">
+                        <li className={`${pathName == "/cBlogs" ? "active" : ""} group/menu-item`}>
                             <Link
-                                href="/blogs"
+                                href="/cBlogs"
                                 className="group inline-flex w-full items-center gap-2 rounded-lg px-3 py-2 text-center text-base font-medium text-muted transition hover:bg-light hover:text-dark group-[.active]/menu-item:bg-light group-[.active]/menu-item:text-dark dark:hover:bg-dark-2 dark:hover:text-white dark:group-[.active]/menu-item:bg-dark-2 dark:group-[.active]/menu-item:text-white">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -324,7 +324,7 @@ export default function Header() {
                                 </svg>
                                 <span>Blog</span>
                             </Link>
-                        </li> */}
+                        </li>
                         <li className={`${pathName == "/contact" ? "active" : ""} group/menu-item`}>
                             <a
                                 href="/contact"
