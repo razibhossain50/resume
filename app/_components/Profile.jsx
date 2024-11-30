@@ -18,7 +18,7 @@ export default function Profile() {
         <div className="mt-6">
           <h3 className="text-2xl font-semibold dark:text-light">Hello there! 👋</h3>
           <p className="mt-2 text-muted dark:text-light/70">
-            I&apos;m a <span className="font-semibold text-dark dark:text-white">Software Developer </span> with a passion for transforming complex problems into efficient, seamless solutions. Let's collaborate and build innovative technology together.
+            I&apos;m a <span className="font-semibold text-dark dark:text-white">Software Developer </span> with a passion for transforming complex problems into efficient, seamless solutions. Let&apos;s collaborate and build innovative technology together.
 
           </p>
           <div className="mt-6 flex flex-wrap gap-2">
