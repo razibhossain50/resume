@@ -13,15 +13,15 @@
     },
     {
         "id": 3,
-        "name":"AEM Development",
-        "imgUrl": "/icons/aem-outline.svg",
-        "imgAlt":"AEM Development"
-    },
-    {
-        "id": 4,
         "name":"Wordpress Development",
         "imgUrl": "/icons/wordpress-outline.svg",
         "imgAlt":"Wordpress"
+    },
+    {
+        "id": 4,
+        "name":"AEM Development",
+        "imgUrl": "/icons/aem-outline.svg",
+        "imgAlt":"AEM Development"
     },
     {
         "id": 5,

@@ -9,7 +9,8 @@ export async function generateStaticParams() {
     }))
 }
 
-export default function blogItem({params}){
+export default async function blogItem(props) {
+    const params = await props.params;
     let blogItem = blogs.find(blog => blog.id === Number(params.blogItem));
     // console.log(JSON.stringify(blogItem, null, 10));
     return(

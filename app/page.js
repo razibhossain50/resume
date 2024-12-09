@@ -22,9 +22,9 @@ export default function Home() {
 							className="animate-scrollY space-y-4 group-hover:[animation-play-state:paused]">
 							{experiences.map((item) => (
 
-								<div key={item.id} className="flex flex-col gap-1 md:flex-row md:gap-10">
+								<div key={item.id} className="flex flex-col gap-1 md:flex-row md:gap-5 xl:gap-10">
 									<p
-										className="mt-1 text-sm font-medium text-muted dark:text-light/70">
+										className="flex-shrink-0 mt-1 text-sm font-medium text-muted dark:text-light/70">
 										{item.year}
 									</p>
 									<div className="flex items-center gap-3">
@@ -49,9 +49,9 @@ export default function Home() {
 							className="animate-scrollY space-y-4 group-hover:[animation-play-state:paused]">
 							{experiences.map((item) => (
 
-								<div key={item.id} className="flex flex-col gap-1 md:flex-row md:gap-10">
+								<div key={item.id} className="flex flex-col gap-1 md:flex-row md:gap-5 xl:gap-10">
 									<p
-										className="mt-1 text-sm font-medium text-muted dark:text-light/70">
+										className="flex-shrink-0 mt-1 text-sm font-medium text-muted dark:text-light/70">
 										{item.year}
 									</p>
 									<div className="flex items-center gap-3">
